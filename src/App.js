@@ -1,10 +1,14 @@
  import React from "react";
-import Werka from "./01werka/werka";
+import ChooseGits from "./pages/chooseGits/ChooseGits";
+import Main from "./pages/main/Main";
+ 
+ 
 
 function App() {
   return (
     <div className="App">
-      <Werka/>
+       <ChooseGits/>
+       <Main/>
     </div>
   );
 }
