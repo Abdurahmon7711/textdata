@@ -1,5 +1,6 @@
  import React from "react";
 
+import AdvancedSearch from "./pages/chooseGits/AdvancedSearch/AdvancedSearch";
 import ChooseGits from "./pages/chooseGits/ChooseGits";
 import Main from "./pages/main/Main";
 import Application from "./pages/Application/Application"
@@ -17,6 +18,9 @@ import Type from "./pages/Application/Type/Type"
        <br/>
        <br/>
        <Type/>
+       <ChooseGits/>
+       <Main/>
+       <AdvancedSearch/>
     </div>
   );
 }
