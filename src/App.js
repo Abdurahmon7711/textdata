@@ -1,16 +1,15 @@
  import React from "react";
-import AdvancedSearch from "./pages/chooseGits/AdvancedSearch/AdvancedSearch";
-import ChooseGits from "./pages/chooseGits/ChooseGits";
-import Main from "./pages/main/Main";
+import Authorization from "./pages/authorization/authorization/Authorization";
+
+import MainPage from "./pages/main/MainPage";
  
  
 
 function App() {
   return (
     <div className="App">
-       <ChooseGits/>
-       <Main/>
-       <AdvancedSearch/>
+      <Authorization/>
+       <MainPage/>
     </div>
   );
 }
