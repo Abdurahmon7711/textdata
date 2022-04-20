@@ -1,7 +1,7 @@
 import React from 'react'
 import TabPanel from "./TabPanel"
 // import CenteredTabs from './TabPanel'
-import "./authorization.module.scss"
+import "./register.scss"
 
 function Authorization() {
     return (
