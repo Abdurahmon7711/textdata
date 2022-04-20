@@ -1,0 +1,11 @@
+.btn1{
+    padding: 10px 30px;
+    background: #326A32;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    transition: 0.5 all;
+}
+.btn1:hover{
+    transform: scale(1,1);
+}
