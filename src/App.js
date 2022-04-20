@@ -1,4 +1,5 @@
  import React from "react";
+import AdvancedSearch from "./pages/chooseGits/AdvancedSearch/AdvancedSearch";
 import ChooseGits from "./pages/chooseGits/ChooseGits";
 import Main from "./pages/main/Main";
  
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
        <ChooseGits/>
        <Main/>
+       <AdvancedSearch/>
     </div>
   );
 }
