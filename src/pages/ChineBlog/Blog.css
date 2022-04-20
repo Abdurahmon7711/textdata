@@ -1,0 +1,25 @@
+.p1 {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+h2{
+color: green;
+}
+
+.div01 {
+    width: 50%;
+    margin-left: 5%;
+
+    line-height: 130%;
+    font-family: 'Montserrat';
+}
