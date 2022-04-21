@@ -5,6 +5,7 @@ import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -56,48 +57,42 @@ export default function BasicTabs() {
       <TabPanel value={value} index={0}>
         <input className="EnterEmail" type="text" placeholder="E-mail kiriting"></input><br />
         <input className="EnterPassword" type="password" placeholder="Parolingizni kiriting"></input>
-        <div className="remindPassword">
-          <p>Parolni eslatish</p>
-        </div>
+        <p className="remindPassword">Parolni eslatish</p>
+
         <button>Kirish</button>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <div className='mainBlock'>
-          <div className='nameBlock'>
-            <p>Ismingiz</p><br />
-            <input type="text" placeholder="Abdusattor" />
+          <div>
+            <p>Ismingiz</p>
+            <input className='nameBlock' type="text" placeholder="Abdusattor" />
           </div>
 
-          <div className='surnameBlock'>
+          <div>
             <p>Familiyangiz</p>
-            <input type="text" placeholder="Mirsaidov" />
+            <input className='surnameBlock' type="text" placeholder="Mirsaidov" />
           </div>
         </div>
 
-        <div className='jobBlock'>
-          <select>
-            <option value="translater">Tarjimon</option>
-            <option value="gid">Gid</option>
-            <option selected value="writer">Yozuvchi</option>
-            <option value="copywriter">Kopirayter</option>
+        <select className='jobBlock'>
+          <option value="translater">Tarjimon</option>
+          <option value="gid">Gid</option>
+          <option selected value="writer">Yozuvchi</option>
+          <option value="copywriter">Kopirayter</option>
+        </select>
 
-          </select>
-
-        </div>
-
-        <div className='emailBlock'>
-          <input type="text" placeholder="adminov@gids.uz" />
+        <div>
+          <input className='emailBlock' type="text" placeholder="adminov@gids.uz" />
         </div>
 
         <div>
           <p>Parolingizni kiriting</p>
-          <input type="password" placeholder='password' />
-
+          <input  className='EnterPassword' type="password" placeholder='password' />
         </div>
 
         <div>
           <p>Parolingizni tasdiqlang</p>
-          <input type="password" placeholder='check password' /><br /><br />
+          <input className="EnterPassword" type="password" placeholder='check password' /><br /><br />
           <button>Ro‘yhattan o’tish</button>
 
         </div>
