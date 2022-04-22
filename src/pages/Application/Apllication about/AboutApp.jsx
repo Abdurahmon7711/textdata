@@ -1,5 +1,8 @@
 import React from 'react'
 import './AboutApp.css'
+import { render } from "react-dom";
+import "react-responsive-modal/styles.css";
+import { Modal } from "react-responsive-modal";
 import Nav from "../../../components/component/Navbar/Nav"
 import Futter from "../../../components/component/Futter/Futter"
 import Buttonout from '../../../components/component/buttonoutline/Buttonout'
@@ -12,6 +15,25 @@ import mansearch from "../../../assets/Application/mansearch.png"
 import language from "../../../assets/Application/language.png"
 import group from "../../../assets/Application/group.png"
 function AboutApp() {
+    // const styles = {
+    //     fontFamily: "sans-serif",
+    //     textAlign: "center"
+    // };
+    
+    class App extends React.Component {
+        state = {
+            open: false
+        };
+    
+        onOpenModal = () => {
+            this.setState({ open: true });
+        };
+    
+        onCloseModal = () => {
+            this.setState({ open: false });
+        };
+    }
+    const { open } = this.state;
     return (
         <div>
             <Nav />
@@ -79,6 +101,16 @@ function AboutApp() {
                         </div>
                     </div>
                 </div>
+                <h2>react-responsive-modal</h2>
+                <button onClick={this.onOpenModal}>Open modal</button>
+                <Modal open={open} onClose={this.onCloseModal}>
+                    <h2>Simple centered modal</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+                        pulvinar risus non risus hendrerit venenatis. Pellentesque sit amet
+                        hendrerit risus, sed porttitor quam.
+                    </p>
+                </Modal>
             </div>
             <Futter />
         </div>
