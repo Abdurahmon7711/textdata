@@ -1,12 +1,18 @@
 import React from 'react'
 // import AdvancedSearch from "../../components/templets/AdvancedSearch/AdvancedSearch"
 import "./main.scss"
+
+// import TitleBig from "../../components/component/titleBig/Title"
+import Nav from "../../components/component/Navbar/Nav"
+import Footer from "../../components/component/Futter/Futter"
+// import images
+import ArrowNumber from "../../assets/Nurlan/img/MainPage/ArrowNumber.png"
 import phone from "../../assets/Nurlan/img/MainPage/GuyAndPhone.jpg"
 import MenWithPhone from "../../assets/Nurlan/img/MainPage/MenWithPhone.png"
 import GirlWithEarth from "../../assets/Nurlan/img/MainPage/GirlWithEarth.png"
-import TitleBig from "../../components/component/titleBig/Title"
-import Nav from "../../components/component/Navbar/Nav"
-import Footer from "../../components/component/Futter/Futter"
+import GirlPlatform from "../../assets/Nurlan/img/MainPage/GirlPlatform.png"
+import MenWithNote from "../../assets/Nurlan/img/MainPage/MenWithNote.png"
+
 
 function MainPage() {
     return (
@@ -54,6 +60,24 @@ function MainPage() {
                         <button>Ro‘yhattan o’tish</button>
                     </div>
                 </div> 
+                
+                <div className="LowBlock">
+                    <div className='ArrowBlock'>
+                        <div>
+                            <img src={GirlPlatform}/>
+                            <h4>Ro’yxattan o’tasiz</h4>
+                            <p>Avvalo platformadan Git/Tarjimon yokida Mijoz sifatida ro’yhattan o’tasiz.</p>
+                        </div>
+                        <div>
+                            <img src={ArrowNumber}/>
+                        </div>
+                        <div>
+                            <img src={MenWithNote}/>
+                            <h4>So‘rov qoldirasiz</h4>
+                            <p>Mijoz so‘rov qoldirishi mumkin yokida o‘zi Git/Tarjimoni tanlashi mumkin.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>
