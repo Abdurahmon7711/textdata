@@ -6,6 +6,7 @@ import Title from '../../components/component/titleBig/Title'
 import "./Blog.css"
 import img1 from '../../assets/aziz/Blog/Vector.png'
 import img2 from '../../assets/aziz/Blog/Rectangle 269.png'
+import img3 from "../../assets/01werka/ChooseGits/Rectangle 32.png"
 function Blog() {
     return (
 
@@ -22,7 +23,10 @@ function Blog() {
 
                     <h2>Xitoygagi safar</h2>
                     <div className='p1'>
+                        <br />
+                        <br />
                         <img src={img1} alt="" />
+                        <br /><br /> <br /><br />
                         <p>23.01.2021</p>
                         <p>Biznes, Xitoy</p>
 
@@ -34,6 +38,7 @@ function Blog() {
                     Magna nam est morbi molestie vel nunc. Donec metus, senectus a convallis quis scelerisque. Risus magna tellus ante sollicitudin vehicula quis commodo scelerisque ac. Consequat ullamcorper ullamcorper volutpat orci urna potenti velit. Sit dictum scelerisque commodo, in ut. Feugiat nunc cursus a gravida pulvinar aliquet varius vitae. Quam sed cursus quisque mauris vestibulum sem pulvinar urna. Habitasse ante enim rhoncus, facilisi arcu sagittis, sed. Curabitur nibh imperdiet enim est dui...</p>
                 <Buttonout button2="Davomini O'qish" />
             </div>
+                <img src={img3} alt="" />
 
             <Futter />
         </div>
