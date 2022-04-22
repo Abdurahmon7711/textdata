@@ -18,6 +18,11 @@ body{
     box-shadow: 0em 0.2em rgb(196, 195, 195);
 
 }
+.come{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .con1{
     display: flex;
     justify-content: space-between;
