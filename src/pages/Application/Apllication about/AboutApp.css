@@ -1,21 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     text-decoration: none;
     font-family: 'Montserrat';
 }
-.container4{
+
+.container4 {
     width: 90%;
     margin-left: 5%;
 }
-.con-01{
-        margin-top: 50px;
-        margin-bottom: 40px;
-    /* display: flex;
+
+.con-01 {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
+    background-color: red;
 }
-.about1{
+
+.about1 {
     margin-top: 50px;
     margin-bottom: 40px;
     display: flex;
@@ -23,8 +29,18 @@
     align-items: center;
 }
 
-.mini1{
+.about2 {
     width: 35%;
+    height: 470px;
+}
+
+.about3 {
+    width: 80%;
+    height: 470px;
+}
+
+.mini1 {
+    width: 90%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -33,16 +49,18 @@
     padding-left: 10px;
     margin-bottom: 10px;
 }
-.mini2{
+
+.mini2 {
     line-height: 320%;
     margin-bottom: 50px;
-    width: 35%;
+    width: 90%;
     height: 420px;
-    padding-left: 10px;
-    box-shadow:0 0.2em rgb(196, 195, 195);
+    padding-left: 8px;
+    box-shadow: 0 0.2em rgb(196, 195, 195);
 }
-.mini3{
-    width: 50%;
+
+.mini3 {
+    width: 90%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -51,20 +69,23 @@
     padding-left: 10px;
     margin-bottom: 10px;
 }
-.mini4{
+
+.mini4 {
     line-height: 130%;
     margin-bottom: 50px;
-    width: 50%;
+    width: 90%;
     height: 420px;
     padding-left: 10px;
-    box-shadow:0 0.2em rgb(196, 195, 195);
+    box-shadow: 0 0.2em rgb(196, 195, 195);
 }
-.mini5{
+
+.mini5 {
     text-align: center;
 }
-.mini6{
+
+.mini6 {
     padding-top: 15px;
-    text-align:end;
+    text-align: end;
     font-size: 13px;
     color: #999;
 }

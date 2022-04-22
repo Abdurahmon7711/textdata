@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    .FirstMainBlock {
+        display: flex;
+        justify-content: space-around;
+        margin: 2px auto;
+
+        .BigSearch {
+            align-items: center;
+            width: 384px;
+            height: 1206px;
+            border: 2px solid red;
+        }
+
+        .TextBig {
+            width: 792px;
+            height: 88px;
+            left: 492px;
+            top: 144px;
+
+            /* Text/Desktop/H3_B_36_44 */
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            /* or 122% */
+
+            text-align: center;
+
+            color: #000000;
+
+        }
+
+    }
+
+    .middleBlock {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        .forCongratulations {
+            width: 486px;
+
+            .forCongratulationsText {
+                width: 486px;
+                height: 135px;
+                left: 84px;
+                top: 1730px;
+
+                /* Text/Desktop/Body2_R_18_140% */
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 140%;
+                /* or 25px */
+
+
+                color: #000000;
+
+            }
+
+        }
+    }
+
+    .middleBlockLow {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+    .middleBlockLowText {
+        width: 486px;
+        height: 135px;
+        left: 798px;
+        top: 2362px;
+
+        /* Text/Desktop/Body2_R_18_140% */
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        /* or 25px */
+
+
+        color: #000000;
+    }
+}
