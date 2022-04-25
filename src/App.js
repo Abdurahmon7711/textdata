@@ -4,10 +4,12 @@ import MainPage from "./pages/main/MainPage"
 import Application from "./pages/Application/Application"
 import AboutApp from "./pages/Application/Apllication about/AboutApp"
 import Blog from "./pages/ChineBlog/Blog";
+import Routs from "./routs/routs";
 
  
 function App() {
   return (
+    <Routs>
     <div className="App">
       {/* <Authorization/> */}
       <MainPage/>
@@ -18,10 +20,11 @@ function App() {
       <br/>
       <br/>
       {/* <AboutApp/> */}
-      <p>sss</p>
 
-      <Blog/>
+
+      {/* <Blog/> */}
     </div>
+    </Routs>
   );
 }
 
