@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       {/* <Authorization/> */}
-      {/* <MainPage/> */}
+      <MainPage/>
       {/* <Application/> */}
       <br/>
       <br/>
@@ -18,7 +18,7 @@ function App() {
       <br/>
       <br/>
       {/* <AboutApp/> */}
-      
+      <p>sss</p>
 
       <Blog/>
     </div>
