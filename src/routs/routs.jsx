@@ -1,12 +1,16 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
+import { Route, Routes} from 'react-router-dom'
+import Authorization from '../pages/authorization/authorization/Authorization'
+import Blog from '../pages/ChineBlog/Blog'
+import MainPage from '../pages/main/MainPage'
 
 function Routs() {
     return (
-        <BrowserRouter>
-        
-        </BrowserRouter>
-        
+        <Routes>
+            <Route path='/' element={<MainPage/>}></Route>
+            <Route path='/authorization' element={<Authorization/>}></Route>
+            <Route path='/blog' element={<Blog/>}></Route>
+        </Routes>
     )
 }
 
