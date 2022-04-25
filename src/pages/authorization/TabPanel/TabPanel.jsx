@@ -4,6 +4,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import Button from '../../../components/component/buttnBg/Button';
 
 
 function TabPanel(props) {
@@ -59,7 +60,7 @@ export default function BasicTabs() {
         <input className="EnterPassword" type="password" placeholder="Parolingizni kiriting"></input>
         <p className="remindPassword">Parolni eslatish</p>
 
-        <button>Kirish</button>
+        <Button button="Kirish"/>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <div className='mainBlock'>
@@ -93,7 +94,7 @@ export default function BasicTabs() {
         <div>
           <p>Parolingizni tasdiqlang</p>
           <input className="EnterPassword" type="password" placeholder='check password' /><br /><br />
-          <button>Ro‘yhattan o’tish</button>
+          <Button button="Ro‘yhattan o’tish"/>
 
         </div>
 
