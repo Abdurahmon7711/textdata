@@ -15,10 +15,12 @@ function Nav(props) {
                     </Link>
                 </div>
                 <div className='con2'>
-                    <Link className='a1' to="/"> Gid yoki tarjimon tanlash</Link>
+                    <Link className='a1' to="/chooseGits"> Gid yoki tarjimon tanlash</Link>
                     <Link className='a1' to="/">Gid va tarjimonlar uchun </Link>
                     <Link className='a1' to="/blog">Blog</Link>
-                    <Button button="Arizalarni ko'rish" />
+                    <Link to="/application">
+                        <Button button="Arizalarni ko'rish" />
+                    </Link>
                 </div>
                 <div className='come'>
                     <img className="img1" src={man} alt="m" />
