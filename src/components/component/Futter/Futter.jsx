@@ -1,5 +1,8 @@
 import React from 'react'
 import './Futter.css'
+import telegram from "../../../assets/Application/Telegram.png"
+import facebook from "../../../assets/Application/Facebook.png"
+import instagram from "../../../assets/Application/Instagram.png"
 function Futter() {
     return (
         <div className='container2'>
@@ -23,7 +26,13 @@ function Futter() {
                     <p>Maxfiylik siyosati va cookie siyosati</p>
                 </div>
             </div>
-
+            <div className='link'>
+                <a href="">
+                    <img className='t1' src={telegram} alt="" />
+                    <img className='t1' src={facebook} alt="" />
+                    <img className='t1' src={instagram} alt="" />
+                </a>
+            </div>
             <div className='con-2'>
                 <p>Copyright 2021 Gits.uz - All rights reserved.</p>
             </div>

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 64px;
+  .FirstMainBlock {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+
+    .BigSearch {
+      align-items: center;
+      width: 384px;
+      height: 1206px;
+      border: 2px solid red;
+      margin-right: 67px;
+    }
+    .LeftFirstMainBlock {
+      .ImgLeftMainBlock {
+        margin-top: 160px;
+      }
+    }
+  }
+  .ourOffer {
+    margin-top: 80px;
+  }
+
+  .middleBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+
+    .forEmployer {
+      width: 486px;
+      margin-top: 135px;
+      h4 {
+        width: 240.46px;
+        height: 36px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+      }
+      .buttons__gr {
+        display: flex;
+        .Buttonout {
+          margin-left: 20px;
+        }
+      }
+
+      .forEmployerText {
+        margin-top: 5px;
+        width: 486px;
+        height: 135px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 140%;
+        color: #000000;
+      }
+    }
+  }
+  .howWork {
+    margin-top: 80px;
+  }
+
+  .middleBlockLow {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 148px;
+    h4 {
+      margin-top: 90px;
+      width: 240.46px;
+      height: 36px;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 36px;
+      color: #000000;
+    }
+    .forGits {
+      .registrationBtn {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .middleBlockLowText {
+    margin-top: 5px;
+    width: 486px;
+    height: 135px;
+    left: 798px;
+    top: 2362px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+  }
+  .TimeLine {
+    margin-top: 78px;
+  }
+  .mostCity {
+    margin-top: 110px;
+  }
+  .cards {
+    margin-bottom: 50px;
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .col-4 {
+        width: 384px;
+        height: 384px;
+        border-radius: 4px;
+        margin: 0 10px;
+
+        background: #ffffff;
+        border-radius: 0px 0px 4px 4px;
+        filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.08));
+
+        img {
+          width: 384px;
+          height: 304px;
+        }
+        .text {
+          display: flex;
+          justify-content: space-between;
+          margin: 20px 30px;
+          p {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            color: #000000;
+          }
+          .BtnWatch{
+            width: 16px;
+            height: 16px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 0px 8px;
+          }
+        }
+      }
+    }
+  }
+}

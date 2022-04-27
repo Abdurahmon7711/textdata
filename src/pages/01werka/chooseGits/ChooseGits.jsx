@@ -8,6 +8,7 @@ import AboutGits from '../../../components/templets/AboutGits/AboutGits'
 import Buttonout from '../../../components/component/buttonoutline/Buttonout'
 import Futter from '../../../components/component/Futter/Futter'
 
+import Title from '../../../components/component/titleBig/Title'
 export default function ChooseGits() {
   return (
     <div>

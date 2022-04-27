@@ -1,0 +1,41 @@
+.p1 {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.p001{
+    margin-bottom: 15px;
+}
+.img2{
+    margin-bottom: 15px;
+}
+.h21{
+color: #285428;
+text-align: start   ;
+}
+
+.div01 {
+    padding: 20px;
+    width: 55%;
+    margin-left: 5%;
+    margin-bottom: 60px;
+    line-height: 130%;
+    font-family: 'Montserrat';
+    box-shadow: 0px 0px 15px rgb(206, 206, 206);  
+}
+.d1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+}

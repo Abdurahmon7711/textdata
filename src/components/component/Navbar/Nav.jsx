@@ -1,22 +1,30 @@
 import React from 'react'
 import './Nav.css'
 import Button from '../buttnBg/Button'
+import man from "../../../assets/Application/man.png"
+import git from "../../../assets/Application/Gits.png"
+import { Link } from 'react-router-dom'
 function Nav(props) {
 
     return (
         <div className='container1'>
             <div className='con1'>
                 <div>
-                    <a className='a1' href=''>Gits</a>
+                    <Link to="/">
+                        <img src={git} alt="git" />
+                    </Link>
                 </div>
                 <div className='con2'>
-                    <a className='a1' href=""> Gid yoki tarjimon tanlash</a>
-                    <a className='a1' href="">Gid va tarjimonlar uchun </a>
-                    <a className='a1' href="">Blog</a>
-                    <Button button="Arizalarni ko'rish" />
+                    <Link className='a1' to="/chooseGits"> Gid yoki tarjimon tanlash</Link>
+                    <Link className='a1' to="/">Gid va tarjimonlar uchun </Link>
+                    <Link className='a1' to="/blog">Blog</Link>
+                    <Link to="/application">
+                        <Button button="Arizalarni ko'rish" />
+                    </Link>
                 </div>
-                <div className='bg-danger'>
-                    <a className='a1' href="">Kirish</a>
+                <div className='come'>
+                    <img className="img1" src={man} alt="m" />
+                    <Link className='a1' to="/authorization">Kirish</Link>
                 </div>
             </div>
         </div>
