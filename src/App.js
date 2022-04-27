@@ -5,26 +5,24 @@ import Application from "./pages/Application/Application"
 import AboutApp from "./pages/Application/Apllication about/AboutApp"
 import Blog from "./pages/ChineBlog/Blog";
 import Routs from "./routs/routs";
+import Bukhara from "./pages/ChineBlog/Bukhara";
+import Xitoy from "./pages/ChineBlog/Xitoy";
 
- 
+
 function App() {
   return (
-    <Routs>
+
+
+
+     
     <div className="App">
-      {/* <Authorization/> */}
-      <MainPage/>
-      {/* <Application/> */}
-      <br/>
-      <br/>
-      <hr/>
-      <br/>
-      <br/>
-      {/* <AboutApp/> */}
-
-
+       
       {/* <Blog/> */}
+      {<Bukhara/>}
+      {<Xitoy/>}
+
     </div>
-    </Routs>
+     
   );
 }
 
