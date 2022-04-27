@@ -3,17 +3,18 @@ import Buttonout from '../../components/component/buttonoutline/Buttonout'
 import Futter from '../../components/component/Futter/Futter'
 import Nav from '../../components/component/Navbar/Nav'
 import Title from '../../components/component/titleBig/Title'
-import "./Blog.css"
-// import "./Bukhara"
 import img1 from '../../assets/aziz/Blog/Vector.png'
+
 import img2 from '../../assets/aziz/Blog/Rectangle 269.png'
 import img3 from "../../assets/01werka/ChooseGits/Rectangle 32.png"
-function Blog() {
+import imgbuxoro from "../../assets/aziz/blog_buxoro/Rectangle 265.png"
+import "./Bukhara.css"
+function Bukhara() {
     return (
-
-
+        
         <div>
             <Nav />
+            <img src={imgbuxoro} alt="" />
             <Title text="Blog" />
             <br>
             </br>
@@ -124,4 +125,4 @@ function Blog() {
     )
 }
 
-export default Blog
+export default Bukhara
