@@ -1,0 +1,30 @@
+.platform {
+    display: flex;
+    /* border: 2px solid red; */
+    width: 1366px;
+    height: 680px;
+}
+
+.platformText {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.lorem {
+    width: 590px;
+    height: 235px;
+    /* border: 2px solid blue; */
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.btnout{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.platform_right{
+    margin-left: 50px;
+}

@@ -1,0 +1,80 @@
+.bizbln{
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #000000;
+}
+.boglanish{
+    display: flex;
+}
+.kontakt{
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    margin-top: 140px;
+    margin-left: 40px;
+}
+.nomer{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.linklar{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.boglanish_right{
+    margin-left: 290px;
+    width: 690px;
+    height: 572px;
+    margin-top: 20px;
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+
+.sarlavha_1{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.savoljonattekst{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+}
+.inputism{
+    border: none;
+    background: #FAFCFA;
+    border-radius: 4px;
+    outline: none;
+    width: 385px;
+    height: 56px;
+}
+.inputlar{
+    display: flex;
+    margin-left: 240px;
+}
+.inputlar_1{
+    margin-top: 60px;
+}
+.inputlar_2{
+    margin-top: 59px;
+    margin-left: 60px;
+}
+.tasnif{
+    width: 827px;
+    height: 100px;
+    border: none;
+    background: #FAFCFA;
+    border-radius: 4px;
+    outline: none;
+}
+.izoh{
+    margin-left: 240px;
+}
+
+.btnnew3{
+    margin-top: 70px;
+    padding-bottom: 30px;
+    margin-left: 953px;
+}
