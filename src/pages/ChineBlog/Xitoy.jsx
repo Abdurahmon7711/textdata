@@ -4,7 +4,7 @@ import Futter from '../../components/component/Futter/Futter'
 import Nav from '../../components/component/Navbar/Nav'
 import Title from '../../components/component/titleBig/Title'
 import img1 from '../../assets/aziz/Blog/Vector.png'
-import img3 from "../../assets/01werka/ChooseGits/Rectangle 32.png"
+import img3 from "../../assets/01werka/ChooseGits/Rectangle.png"
 import imgxitoy from "../../assets/aziz/Xitoy/Rectangle 269.png"
 import { Container } from '@mui/material'
 // import "./Blog.css"

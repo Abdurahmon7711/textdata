@@ -7,7 +7,7 @@ import "./Blog.css"
 // import "./Bukhara"
 import img1 from '../../assets/aziz/Blog/Vector.png'
 import img2 from '../../assets/aziz/Blog/Rectangle 269.png'
-import img3 from "../../assets/01werka/ChooseGits/Rectangle 32.png"
+import img3 from "../../assets/01werka/ChooseGits/Rectangle.png"
 function Blog() {
     return (
 

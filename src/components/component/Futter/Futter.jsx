@@ -3,16 +3,17 @@ import './Futter.css'
 import telegram from "../../../assets/Application/Telegram.png"
 import facebook from "../../../assets/Application/Facebook.png"
 import instagram from "../../../assets/Application/Instagram.png"
+import { Link } from 'react-router-dom'
 function Futter() {
     return (
         <div className='container2'>
             <div className='con-1'>
                 <div>
                     <h3>Bizning servis</h3>
-                    <p>Git yoki tarjimon tanlash</p>
-                    <p>Gid va tarjimonlar uchun </p>
+                    <Link to="/chooseGits"><p>Git yoki tarjimon tanlash</p></Link>
+                    <Link to="/chooseGits"><p>Gid va tarjimonlar uchun </p></Link>
                     <p>Platforma haqida</p>
-                    <p>Blog</p>
+                    <Link to="/blog"><p>Blog</p></Link>
                 </div>
                 <div>
                     <h3>Kontaktarimiz</h3>
@@ -27,11 +28,11 @@ function Futter() {
                 </div>
             </div>
             <div className='link'>
-                <a href="">
+                <Link to="/" >
                     <img className='t1' src={telegram} alt="" />
                     <img className='t1' src={facebook} alt="" />
                     <img className='t1' src={instagram} alt="" />
-                </a>
+                </Link>
             </div>
             <div className='con-2'>
                 <p>Copyright 2021 Gits.uz - All rights reserved.</p>

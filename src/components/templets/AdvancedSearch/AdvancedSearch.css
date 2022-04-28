@@ -1,9 +1,9 @@
 .Advancedsearch{
     width: 384px;
-    height: 1310px;
-    /* height: 1134px; */
+    height: auto;
     background: #FFFFFF;
-    border: 2px solid black;
+    border: 2px solid rgb(237, 235, 235);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
 }
 .advanced_nav{
     width: 384px;
@@ -71,4 +71,5 @@
 .btnwerka{
     margin-left: 135px;
     margin-top: 15px;
+    margin-bottom: 22px;
 }

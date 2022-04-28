@@ -32,8 +32,10 @@ function MainPage(props) {
                     </div>
                   
                     <div className='LeftFirstMainBlock'>
-                        <Title text ="Dunyo bo'ylab ishonchli gidlar va "/>
-                        <Title text="tarjimonlarni taklif qilamiz"/>
+                        <div className="leftText">
+                            <p class="leftBigText">Dunyo bo'ylab ishonchli gidlar va<br/>
+                             tarjimonlarni taklif qilamiz</p>
+                        </div>
                         <div className="ImgLeftMainBlock">
                             <img src={phone} />
                         </div>
