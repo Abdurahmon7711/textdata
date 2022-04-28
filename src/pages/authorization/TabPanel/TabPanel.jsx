@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import Button from "../../../components/component/buttnBg/Button";
 import { Link } from "react-router-dom";
+import '../authorization/register.scss'
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -46,17 +47,18 @@ export default function BasicTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+ 
   return (
     <Box sx={{ width: "100%" }}>
-      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+      <Box sx={{ borderBottom: 1, borderColor: "green" }}>
         <Tabs
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
         >
-          <Tab label="Kirish" {...a11yProps(0)} />
-          <Tab label="Ro’yhattan o’tish" {...a11yProps(1)} />
+            <Tab className="tabs" label="Kirish" {...a11yProps(0)} />
+            <Tab className="tabs"  label="Ro’yhattan o’tish" {...a11yProps(1)} />
+      
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
@@ -79,16 +81,14 @@ export default function BasicTabs() {
       <TabPanel value={value} index={1}>
         <div className="mainBlock">
           <div>
-            <p>Ismingiz</p>
-            <input className="nameBlock" type="text" placeholder="Abdusattor" />
+            <input className="nameBlock" type="text" placeholder="Ismingiz" />
           </div>
 
           <div>
-            <p>Familiyangiz</p>
             <input
               className="surnameBlock"
               type="text"
-              placeholder="Mirsaidov"
+              placeholder="Familiyangiz"
             />
           </div>
         </div>
@@ -111,20 +111,18 @@ export default function BasicTabs() {
         </div>
 
         <div>
-          <p>Parolingizni kiriting</p>
           <input
             className="EnterPassword"
             type="password"
-            placeholder="password"
+            placeholder="Enter Password"
           />
         </div>
 
         <div>
-          <p>Parolingizni tasdiqlang</p>
           <input
             className="EnterPassword"
             type="password"
-            placeholder="check password"
+            placeholder="Check password"
           />
           <br />
           <br />
