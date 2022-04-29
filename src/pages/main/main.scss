@@ -4,7 +4,7 @@
 }
 
 .container {
-  margin-top: 64px;
+  margin-top: 39px;
   .FirstMainBlock {
     display: flex;
     justify-content: space-between;
@@ -14,12 +14,25 @@
       align-items: center;
       width: 384px;
       height: 1206px;
-      border: 2px solid red;
       margin-right: 67px;
     }
     .LeftFirstMainBlock {
+      .leftText {
+        p {
+          width: 792px;
+          height: 88px;
+          margin-top: 38px;
+          font-family: "Montserrat";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          text-align: center;
+          color: #000000;
+        }
+      }
       .ImgLeftMainBlock {
-        margin-top: 160px;
+        margin-top: 130px;
       }
     }
   }
@@ -144,7 +157,7 @@
             align-items: center;
             color: #000000;
           }
-          .BtnWatch{
+          .BtnWatch {
             width: 16px;
             height: 16px;
             flex: none;

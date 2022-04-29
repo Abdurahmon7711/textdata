@@ -18,9 +18,6 @@ import Samarqand from '../../assets/Nurlan/img/MainPage/Samarqand.jpg'
 import Xiva from '../../assets/Nurlan/img/MainPage/Xiva.jpg'
 
 
-
-
-
 function MainPage(props) {
     return (
         <div>
@@ -32,8 +29,10 @@ function MainPage(props) {
                     </div>
                   
                     <div className='LeftFirstMainBlock'>
-                        <Title text ="Dunyo bo'ylab ishonchli gidlar va "/>
-                        <Title text="tarjimonlarni taklif qilamiz"/>
+                        <div className="leftText">
+                            <p class="leftBigText">Dunyo bo'ylab ishonchli gidlar va<br/>
+                             tarjimonlarni taklif qilamiz</p>
+                        </div>
                         <div className="ImgLeftMainBlock">
                             <img src={phone} />
                         </div>
@@ -119,7 +118,17 @@ function MainPage(props) {
 
                     </div>
                 </div>
-            
+                {/* <div className="mostCity">
+                    <Title text="Mijozlarlamizning fikirlari"/>
+                </div>
+                <div className='slideComments'>
+                    
+                </div>
+                <div className="mostCity">
+                    <Title text="Xoziroq o’zingiz uchun Git tanlang "/>
+                    <Title text="yoki shunchaki ariza qoldiring."/>
+                </div>
+             */}
             </Container>
             <Footer />
             

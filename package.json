@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
+    "@material/tabs": "^2.3.0",
     "@mui/lab": "^5.0.0-alpha.79",
     "@mui/material": "^5.6.3",
     "@mui/styled-engine-sc": "^5.6.1",
@@ -15,7 +16,7 @@
     "macro-css": "^1.0.5",
     "node-sass": "^7.0.1",
     "react": "^18.0.0",
-    "react-bootstrap": "^2.3.0",
+    "react-bootstrap": "^2.3.1",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",

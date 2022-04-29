@@ -100,7 +100,7 @@
 
     }
 
-    .emailBlock {
+    .emailBlock { 
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -113,4 +113,18 @@
         border-radius: 4px;
         border: 2px solid #FAFCFA;
     }
+}
+.tabs{
+     width: 50%;
+     color: green !important;
+     border-bottom: red !important;
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color: #1D3D1D !important;
+}
+
+
+.registerBtn, .enterBtn{
+    display: flex;
+    justify-content: end;
 }
