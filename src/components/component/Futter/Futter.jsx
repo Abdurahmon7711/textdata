@@ -8,20 +8,20 @@ function Futter() {
     return (
         <div className='container2'>
             <div className='con-1'>
-                <div>
+                <div className='aboutInfo'>
                     <h3>Bizning servis</h3>
-                    <Link to="/chooseGits"><p>Git yoki tarjimon tanlash</p></Link>
-                    <Link to="/chooseGits"><p>Gid va tarjimonlar uchun </p></Link>
-                    <p>Platforma haqida</p>
-                    <Link to="/blog"><p>Blog</p></Link>
+                    <Link to="/chooseGits"><p className='p__text'>Git yoki tarjimon tanlash</p></Link>
+                    <Link to="/suggestions"><p className='p__text'>Gid va tarjimonlar uchun </p></Link>
+                    <Link to="/aboutPlatform"><p className='p__text'>Platforma haqida</p></Link>
+                    <Link to="/blog"><p className='p__text'>Blog</p></Link>
                 </div>
-                <div>
-                    <h3>Kontaktarimiz</h3>
-                    <p>salom@gits.uz</p>
-                    <p>+998 90 123 45 67</p>
-                    <p>Savol jo’natish</p>
+                <div className='contactInfo'>
+                    <Link to="/contacts"><h3 className='p__text'>Kontaktarimiz</h3></Link>
+                    <Link to="/contacts"><p className='p__text'>salom@gits.uz</p></Link>
+                    <a className='p__text' href="tel:+998 90 123 45 67"><p className='p__text'>+998 90 123 45 67</p></a>
+                    <Link to="/contacts"><p className='p__text'>Savol jo’natish</p></Link>
                 </div>
-                <div>
+                <div className='lawInfo'>
                     <h3>Huquqiy ma’lumotlar</h3>
                     <p>Foydalanish shartlari</p>
                     <p>Maxfiylik siyosati va cookie siyosati</p>

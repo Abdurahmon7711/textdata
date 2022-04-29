@@ -74,9 +74,11 @@ export default function BasicTabs() {
           placeholder="Parolingizni kiriting"
         ></input>
         <p className="remindPassword">Parolni eslatish</p>
-        <Link to="/">
-          <Button button="Kirish" />
-        </Link>
+        <div className="enterBtn">
+          <Link to="/">
+            <Button button="Kirish" />
+          </Link>
+        </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
         <div className="mainBlock">
@@ -126,9 +128,11 @@ export default function BasicTabs() {
           />
           <br />
           <br />
-          <Link to="/">
-            <Button button="Ro‘yhattan o’tish" />
-          </Link>
+          <div className="registerBtn">
+            <Link to="/">
+              <Button button="Ro‘yhattan o’tish" />
+            </Link>
+          </div>
         </div>
       </TabPanel>
     </Box>

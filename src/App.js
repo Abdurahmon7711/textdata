@@ -10,7 +10,6 @@ function App() {
     <Routs>
       <div className="App">
         <MainPage/>
-
       </div>
     </Routs>
   );
