@@ -7,9 +7,10 @@ import Futter from '../../../components/component/Futter/Futter'
 
 export default function About_platform() {
     return (
-        
-        <div className='container'>
+        <div>
             <Nav/>
+             <div className='container'>
+            
             <div className='platform'>
                 <div className='platform_left'>
                     <p className='platformText'>Platforma haqida</p>
@@ -25,7 +26,10 @@ export default function About_platform() {
                     <img src={Group340} alt="" />
                 </div>
             </div>
-            <Futter/>
+            
         </div>
+        <Futter/>
+        </div>
+       
     )
 }

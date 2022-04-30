@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../../../components/component/Navbar/Nav'
 import AdvancedSearch from '../../../components/templets/AdvancedSearch/AdvancedSearch'
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Rectanle from "../../../assets/01werka/ChooseGits/Rectangle.png"
 import "./ChooseGits.css"
 import AboutGits from '../../../components/templets/AboutGits/AboutGits'
@@ -9,7 +9,6 @@ import Buttonout from '../../../components/component/buttonoutline/Buttonout'
 import Futter from '../../../components/component/Futter/Futter'
 
 import Title from '../../../components/component/titleBig/Title'
-import SimpleAccordion from '../../../components/component/SimpleAccordion/SimpleAccordion'
 export default function ChooseGits() {
   return (
     <div>
@@ -43,8 +42,6 @@ export default function ChooseGits() {
             </div>
           </div>
         </div>
-        
-
       </div>
       <Futter/>
 
