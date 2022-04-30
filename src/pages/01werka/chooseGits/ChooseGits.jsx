@@ -9,6 +9,7 @@ import Buttonout from '../../../components/component/buttonoutline/Buttonout'
 import Futter from '../../../components/component/Futter/Futter'
 
 import Title from '../../../components/component/titleBig/Title'
+import SimpleAccordion from '../../../components/component/SimpleAccordion/SimpleAccordion'
 export default function ChooseGits() {
   return (
     <div>
@@ -41,8 +42,8 @@ export default function ChooseGits() {
               <Buttonout button2="Davomi" />
             </div>
           </div>
-
         </div>
+        
 
       </div>
       <Futter/>

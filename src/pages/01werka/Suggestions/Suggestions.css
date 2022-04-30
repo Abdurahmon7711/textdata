@@ -83,6 +83,12 @@ b{
 .taklif_left{
     margin-right: 55px;
 }
+.takliflar_tekst001{
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
 /* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
 .footerReg{
     background-color: #F2F8F2;
