@@ -6,6 +6,7 @@
 }
 .boglanish{
     display: flex;
+    justify-content: space-evenly;
 }
 .kontakt{
     font-weight: 600;

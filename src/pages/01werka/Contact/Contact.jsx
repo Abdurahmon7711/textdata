@@ -10,7 +10,7 @@ import Futter from '../../../components/component/Futter/Futter'
 
 export default function Contact() {
   return (
-    <div className='container'>
+    <div>
       <Nav/>
       <p className='bizbln'>Biz bilan bog'lanish </p>
       <div className='boglanish'>

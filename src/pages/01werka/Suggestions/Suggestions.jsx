@@ -12,7 +12,7 @@ import Futter from '../../../components/component/Futter/Futter';
 
 export default function Suggestions() {
   return (
-    <div className='container'>
+    <div>
       <Nav/>
       <div className='register'>
         <div className='register_left'>
