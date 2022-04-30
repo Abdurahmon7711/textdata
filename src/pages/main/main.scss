@@ -4,7 +4,9 @@
 }
 
 .container {
-  margin-top: 39px;
+  padding-top: 39px;
+  width: 80%;
+  margin: 0 auto;
   .FirstMainBlock {
     display: flex;
     justify-content: space-between;

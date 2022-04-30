@@ -22,7 +22,7 @@ function MainPage(props) {
     return (
         <div>
             <Nav />
-            <Container className="container">
+            <div className="container">
                 <div className='FirstMainBlock'>
                     <div className='BigSearch'>
                         <AdvancedSearch/>
@@ -129,7 +129,7 @@ function MainPage(props) {
                     <Title text="yoki shunchaki ariza qoldiring."/>
                 </div>
              */}
-            </Container>
+            </div>
             <Footer />
             
         </div>

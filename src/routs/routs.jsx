@@ -7,6 +7,7 @@ import Blog from '../pages/ChineBlog/Blog'
 import MainPage from '../pages/main/MainPage'
 import About_platform from '../pages/01werka/About_platform/About_platform'
 import Contact from '../pages/01werka/Contact/Contact'
+import Suggestions from '../pages/01werka/Suggestions/Suggestions'
 
 
 function Routs() {
@@ -19,6 +20,7 @@ function Routs() {
             <Route path='/chooseGits' element={<ChooseGits/>}></Route>
             <Route path='/aboutPlatform' element={<About_platform/>}></Route> 
             <Route path='/contacts' element={<Contact/>}></Route>
+            <Route path='/suggestions' element={<Suggestions/>}></Route>
 
         </Routes>
     )
