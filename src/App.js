@@ -9,11 +9,15 @@ import SimpleAccordion from "./components/component/SimpleAccordion/SimpleAccord
 
 function App() {
   return (
-    <Routs>
-      <div className="App">
-        <MainPage/>
-      </div>
-    </Routs>
+    // <Routs>
+    //    <div className="App">
+    //       <Xitoy/>
+    //    </div>
+
+    // </Routs>
+    <div>
+      <Bukhara/>
+    </div>
   );
 }
 

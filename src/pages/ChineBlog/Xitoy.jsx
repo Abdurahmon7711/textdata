@@ -7,6 +7,10 @@ import img1 from '../../assets/aziz/Blog/Vector.png'
 import img3 from "../../assets/01werka/ChooseGits/Rectangle.png"
 import imgxitoy from "../../assets/aziz/Xitoy/Rectangle 269.png"
 import { Container } from '@mui/material'
+import img4 from '../../assets/aziz/Xitoy/Button.png'
+import img5 from '../../assets/aziz/Xitoy/Vector.svg'
+
+
 // import "./Blog.css"
 import "./Xitoy.css"
 
@@ -17,8 +21,7 @@ function Xitoy() {
             <br />
             <br />
             <br />
-            <br>
-            </br>
+
             <div className="mainbox ">
                 <div className='leftbox'>
                     <div className='d1'>
@@ -60,16 +63,27 @@ function Xitoy() {
                         Semper proin velit interdum nunc. Sit eget velit in faucibus euismod mollis. Lacinia diam adipiscing scelerisque et non accumsan, in sed. Vestibulum at eu diam lorem risus mollis ac vestibulum congue. In massa risus facilisi velit ullamcorper. Risus enim, risus molestie rutrum pulvinar. Turpis enim, lorem platea nulla tellus quam senectus mi, diam. Pellentesque amet, et, libero donec eu proin mus ipsum integer. Euismod pellentesque tellus dignissim amet in. Vitae faucibus ultrices facilisis vel a. Sed nibh pretium tincidunt id. Ipsum consectetur vulputate nibh neque. Integer sed tristique quis penatibus est nam sit sem risus.
                         Quam a ultricies tempus, id est pellentesque egestas et id. Augue donec bibendum eget dui mattis. Vitae, aliquam varius cras tempor ornare diam elementum pulvinar. Urna tempor ac egestas in at nam eu. Sit eget at ultrices nibh egestas risus. Vel integer lectus mattis sapien. Nibh eu massa viverra diam maecenas ut sed. Congue enim sapien, cursus aliquam commodo mattis ultrices. Lectus amet eu molestie interdum vel bibendum mattis morbi. Aliquet nec consectetur fringilla id metus blandit non, hendrerit enim. Adipiscing ante massa fames libero mi ultrices nisl, enim id. Sed nibh.
                     </p>
+
+                    <div className='ikkitaraf'>
+                        <div className='sss33'>
+                            <h3 className='h322'>MUALLIF : </h3> :
+                            <h4>
+                                abdussattor ergashev
+                            </h4>
+                        </div>
+                        <div className='img8'>
+                            <img className='img11' src={img5} alt="" />
+                            <img src={img4} alt="" />
+                        </div>
+                    </div>
                 </div>
                 <div className='rightbox'>
                     <img src={img3} alt="" />
                     <br />
                     <img src={img3} alt="" />
                     <br />
-                    <img src={img3} alt="" />
-                    <br />
-                    <img src={img3} alt="" />
-                    <br />
+
+
                 </div>
 
             </div>

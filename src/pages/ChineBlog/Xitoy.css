@@ -12,12 +12,35 @@
 
 .loremm{
     width: 792px;
+    font-size: 18px;
 }
 .mainbox{
     width:80%;
     margin:0 auto;
 }
+.sss33{
+    display: flex;
+}
 
 
+.leftbox{
+    width: 5%;
+}
+.h333{
+    display: flex;
+}
      
 
+.img8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+       
+}
+.ikkitaraf{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

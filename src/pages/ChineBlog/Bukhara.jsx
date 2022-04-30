@@ -7,11 +7,11 @@ import img1 from '../../assets/aziz/Blog/Vector.png'
 
 import img2 from '../../assets/aziz/Blog/Rectangle 269.png'
 import img3 from "../../assets/01werka/ChooseGits/Rectangle 32.png"
-import imgbuxoro from "../../assets/aziz/blog_buxoro/Rectangle 265.png"
+// import imgbuxoro from "../../assets/aziz/blog_buxoro/buxoro1.png "
 import "./Bukhara.css"
 function Bukhara() {
     return (
-        
+
         <div>
             <Nav />
             <img src={imgbuxoro} alt="" />
@@ -22,16 +22,16 @@ function Bukhara() {
                 <div>
                     <div className='div01'>
                         <div className='div2'>
-                         
+
 
                             <h2 className='h21'>Xitoygagi safar</h2>
                             <div className='p1'>
-                            
+
                                 <img src={img1} alt="" />
-                               
+
                                 <p>23.01.2021</p>
 
-                            
+
                                 <p>Biznes, Xitoy</p>
 
                             </div>
@@ -44,16 +44,16 @@ function Bukhara() {
                     </div>
                     <div className='div01'>
                         <div className='div2'>
-                         
+
 
                             <h2 className='h21'>Xitoygagi safar</h2>
                             <div className='p1'>
-                            
+
                                 <img src={img1} alt="" />
-                               
+
                                 <p>23.01.2021</p>
 
-                            
+
                                 <p>Biznes, Xitoy</p>
 
                             </div>
@@ -66,16 +66,16 @@ function Bukhara() {
                     </div>
                     <div className='div01'>
                         <div className='div2'>
-                         
+
 
                             <h2 className='h21'>Xitoygagi safar</h2>
                             <div className='p1'>
-                            
+
                                 <img src={img1} alt="" />
-                               
+
                                 <p>23.01.2021</p>
 
-                            
+
                                 <p>Biznes, Xitoy</p>
 
                             </div>
@@ -88,16 +88,16 @@ function Bukhara() {
                     </div>
                     <div className='div01'>
                         <div className='div2'>
-                         
+
 
                             <h2 className='h21'>Xitoygagi safar</h2>
                             <div className='p1'>
-                            
+
                                 <img src={img1} alt="" />
-                               
+
                                 <p>23.01.2021</p>
 
-                            
+
                                 <p>Biznes, Xitoy</p>
 
                             </div>
