@@ -1,10 +1,10 @@
 import React from "react";
+import ChooseGits from "./pages/01werka/chooseGits/ChooseGits";
+import Contact from "./pages/01werka/Contact/Contact";
+import Suggestions from "./pages/01werka/Suggestions/Suggestions";
 import MainPage from "./pages/main/MainPage"
 import Routs from "./routs/routs";
-import Suggestions from "./pages/01werka/Suggestions/Suggestions"
-import { dividerClasses } from "@mui/material";
-import ChooseGits from "./pages/01werka/chooseGits/ChooseGits";
-import SimpleAccordion from "./components/component/SimpleAccordion/SimpleAccordion";
+
 
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
        <div className="App">
           <MainPage/>
        </div>
-
     </Routs>
    
   );
