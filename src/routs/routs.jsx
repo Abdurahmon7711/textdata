@@ -8,6 +8,8 @@ import MainPage from '../pages/main/MainPage'
 import About_platform from '../pages/01werka/About_platform/About_platform'
 import Contact from '../pages/01werka/Contact/Contact'
 import Suggestions from '../pages/01werka/Suggestions/Suggestions'
+import Bukhara from '../pages/ChineBlog/Bukhara'
+import Xitoy from '../pages/ChineBlog/Xitoy'
 
 
 function Routs() {
@@ -21,6 +23,8 @@ function Routs() {
             <Route path='/aboutPlatform' element={<About_platform/>}></Route> 
             <Route path='/contacts' element={<Contact/>}></Route>
             <Route path='/suggestions' element={<Suggestions/>}></Route>
+            <Route path='/bukhara' element={<Bukhara/>}></Route>
+            <Route path='/china' element={<Xitoy/>}></Route>
 
         </Routes>
     )
