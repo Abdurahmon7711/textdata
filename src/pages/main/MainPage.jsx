@@ -20,12 +20,18 @@ import Samarqand from "../../assets/Nurlan/img/MainPage/Samarqand.jpg";
 import Xiva from "../../assets/Nurlan/img/MainPage/Xiva.jpg";
 import BootstrapCarouselComponent from "../../components/component/carousel/BootstrapCarouselComponent";
 import arrow from "../../assets/Nurlan/img/MainPage/right.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
+ 
 
 function MainPage(props) {
   return (
     <div>
       <Nav />
-      <div className="container__box">
+      <div className="container">
+        <div className="topblock">
         <div className="FirstMainBlock">
           <div className="BigSearch">
             <AdvancedSearch />
@@ -159,6 +165,7 @@ function MainPage(props) {
         <div className="mostCity">
           {/* <Title text="Xoziroq o’zingiz uchun Git tanlang " />
           <Title text="yoki shunchaki ariza qoldiring." /> */}
+        </div>
         </div>
       </div>
 
