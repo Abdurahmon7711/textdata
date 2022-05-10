@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 body{
     width: 100%;
@@ -40,7 +40,7 @@ body{
     margin-right: 20px;
 }
 .p__text{
-    color: white;
+    color: white !important;
     
 }
 .contactInfo{

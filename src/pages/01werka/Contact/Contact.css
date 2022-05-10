@@ -7,6 +7,9 @@
 }
 .boglanish{
     display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
 }
 .kontakt{
     font-weight: 600;
