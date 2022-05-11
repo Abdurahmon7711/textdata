@@ -23,7 +23,7 @@ export default function About_platform() {
                     </div>
                 </div>
                 <div className='platform_right'>
-                    <img src={Group340} alt="" />
+                    <img className='platform_rasm1' src={Group340} alt="" />
                 </div>
             </div>
             

@@ -19,10 +19,8 @@ export default function ChooseGits() {
         <div className="Githaqida">
           <div className="left1">
             <AdvancedSearch />
-            <br />
-            <img src={Rectanle} alt="" /> <br />
-            <br />
-            <img src={Rectanle} alt="" />
+            <img className='left1_rasm' src={Rectanle} alt="" /> 
+            <img className='left1_rasm' src={Rectanle} alt="" />
           </div>
 
           <div className="right1">
