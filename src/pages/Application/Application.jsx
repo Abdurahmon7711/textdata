@@ -1,9 +1,9 @@
 import React from 'react'
+import './Application.css'
 import Nav from '../../components/component/Navbar/Nav'
 import Futter from '../../components/component/Futter/Futter'
 import Title from '../../components/component/titleBig/Title'
 import Input from '../../components/component/Input/Input'
-import './Application.css'
 import Button from '../../components/component/buttnBg/Button'
 import Buttonout from "../../components/component/buttonoutline/Buttonout"
 import img1 from "../../assets/Application/man2.png"

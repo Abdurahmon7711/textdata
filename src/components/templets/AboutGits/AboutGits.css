@@ -1,10 +1,11 @@
 .AboutGit{
     width: 792px;
-    height: 350px;
+    /* height: 350px; */
     display: flex;
     /* border: 2px solid red; */
     box-shadow: 0px 0px 20px -5px ;
 }
+
 .rasm{
     margin-left: 40px;
     margin-top: 40px;
@@ -64,6 +65,20 @@ p{
     margin-left: 15px;
 }
 .bottom{
-    margin-top: 235px;
+    margin-top: 245px;
     margin-left: 25px;
+    margin-bottom: 20px;
+}
+@media (max-width:575.98px) {
+    .AboutGit{
+        width: 100%;
+        flex-direction: column;
+    }
+    .ortada{
+        width: 90%;
+    }
+    .bottom {
+        margin-top: 20px;
+        margin-left: 30%;
+    }
 }
