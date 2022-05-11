@@ -9,6 +9,8 @@ import Buttonout from "../../components/component/buttonoutline/Buttonout"
 import img1 from "../../assets/Application/man2.png"
 import img2 from "../../assets/Application/map.png"
 import img3 from "../../assets/Application/calendar.png"
+import { Link } from "react-router-dom";
+
 function Application() {
     return (
         <div>
@@ -24,7 +26,7 @@ function Application() {
                     <Input input="dd / mm / yyyy  gacha" />
                     <Button button="search" />
                 </div>
-                <a href="">
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -52,8 +54,8 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -81,8 +83,8 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -110,8 +112,8 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -139,8 +141,8 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -168,8 +170,8 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -197,8 +199,8 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/aboutapp">
                     <div className='con01'>
                         <div className='inp2'>
                             <h2>Id:#071364754</h2>
@@ -226,7 +228,7 @@ function Application() {
                             </div>
                         </div>
                     </div>
-                </a>
+                </Link>
                 <div className='con03'>
                     <Buttonout button2="Davomi" />
                 </div>
