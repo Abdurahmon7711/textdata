@@ -1,16 +1,17 @@
 import React from "react";
-import MainPage from "./pages/main/MainPage"
 import Routs from "./routs/routs";
-
-
+import AboutApp from "./pages/Application/Apllication about/AboutApp";
 
 function App() {
   return (
-    <Routs>
-       <div className="App">
-          <MainPage/>
-       </div>
-    </Routs>
+    // <Routs>
+    //    <div className="App">
+    //       <MainPage/>
+    //    </div>
+    // </Routs>
+    <div>
+      <AboutApp/>
+    </div>
    
   );
 }
