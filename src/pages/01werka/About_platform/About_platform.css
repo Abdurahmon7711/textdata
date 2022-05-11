@@ -28,3 +28,27 @@
 .platform_right{
     margin-left: 50px;
 }
+@media (max-width: 575.98px){
+    .platform{
+        flex-direction: column-reverse;
+    }
+    .platformText{
+        margin-top: 10px;
+    }
+    .platform_right{
+        /* margin-top: 200px; */
+        width: 100%;
+        margin-left: 10px;
+    }
+    .platform_rasm1{
+        width: 320px;
+        margin-left: 10%;
+    }
+    .lorem{
+        width: 570px;
+    }
+    .btnout{
+        margin-left: 17%;
+        /* justify-content: center; */
+    }
+}

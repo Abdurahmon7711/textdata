@@ -79,6 +79,19 @@ export default function Suggestions() {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
+        <p className='takliflar_tekst001'>Ko’p beriladigan savollar</p>
+        <div className='qoshimcha'>
+          <SimpleAccordion />
+        </div>
+
+
+      </div>
+      <div className='footerReg'>
+        <p className='footerRegText'>Xoziroq ro’yhattan o’ting, ma’lumotlaringizni <br />    to’ldiring va o’z karyerangizni boshlang!</p>
+        <div className="btnnew2">
+          <Button button="Ro‘yhatdan o’tish" />
+=======
         <p className="takliflar_tekst001">Ko’p beriladigan savollar</p>
         <div className="qoshimcha">
           <SimpleAccordion />
@@ -94,9 +107,9 @@ export default function Suggestions() {
               <Button button="Ro‘yhatdan o’tish" />
             </Link>
           </div>
+>>>>>>> 45a26e1a5140bfb47442e3d2e9b3cdf11ea22df7
         </div>
       </div>
-
       <Futter />
     </div>
   );
