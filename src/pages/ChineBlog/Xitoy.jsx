@@ -78,7 +78,7 @@ function Xitoy() {
                     </div>
                 </div>
                 <div className='rightbox'>
-                    <img src={img3} alt="" />
+                    <img className='img3' src={img3} alt="" />
                     <br />
                     <img src={img3} alt="" />
                     <br />
