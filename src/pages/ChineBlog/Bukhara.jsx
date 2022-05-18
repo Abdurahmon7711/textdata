@@ -14,7 +14,7 @@ function Bukhara() {
   return (
     <div>
       <Nav />
-      <img src={imgbuxoro} alt="" />
+      <img className="imgbuxoro" src={imgbuxoro} alt="" />
       <Title text="Blog" />
       <br></br>
       <div className="d1">

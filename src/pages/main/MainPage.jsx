@@ -24,8 +24,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function MainPage(props) {
   return (
-    <div>
-      <Nav />
+    <div className="main">
+      <div className="header">
+        <Nav />
+      </div>
       <div className="container">
         <div className="topblock">
           <div className="FirstMainBlock">
@@ -57,7 +59,7 @@ function MainPage(props) {
                 Ushbu platforma yordamida siz chet elliklar bilan
                 <br />
                 kelishish, biznesni rivojlantirish uchun tarjimon va gitlarni
-                topishingiz mumkin.
+                topishingiz mumkin.&nbsp; 
                 <br />
                 O’zingiz uchun Git tanlang yoki shunchaki ariza qoldiring.
               </p>
@@ -86,9 +88,9 @@ function MainPage(props) {
               <p className="middleBlockLowText">
                 Ushbu platforma yordamida siz o’zingiz uchun
                 <br />
-                mijozlarni topishingiz va karyera qilishingiz mumkin.
+                mijozlarni topishingiz va karyera qilishingiz mumkin.&nbsp; 
                 <br />
-                Gits.uz platformasi sizni qo’llab quvvatlab turadi.
+                Gits.uz platformasi sizni qo’llab quvvatlab turadi.&nbsp;
                 <br />
                 Xoziroq ro’yhattan o’ting, ma’lumotlaringizni to’ldiring va o’z
                 karyerangizni boshlang!
@@ -109,46 +111,43 @@ function MainPage(props) {
           <div className="mostCity">
             <Title text="Eng ko’p boriladigan shaharlar" />
           </div>
-          <div className="container cards">
-            <div className="row">
-              <div className="col-12">
-                <div className="col-4">
-                  <img src={Buxoro} />
-                  <div className="text">
-                    <p>Buxoro</p>
-                    <Link to="/bukhara">
-                      <button>
-                        Ko’rish
-                        <img src={arrow} alt="strelka" />
-                      </button>
-                    </Link>
-                  </div>
-                </div>
+          <div className="cards">
+            <div className="card">
+              <img src={Buxoro} />
+              <div className="text">
+                <p>Buxoro</p>
+                <Link to="/bukhara">
+                  <button>
+                    Ko’rish
+                    <img src={arrow} alt="strelka" />
+                  </button>
+                </Link>
+              </div>
+            </div>
 
-                <div className="col-4">
-                  <img src={Samarqand} />
-                  <div className="text">
-                    <p>Samarqand</p>
-                    <Link to="/bukhara">
-                      <button>
-                        Ko’rish
-                        <img src={arrow} alt="strelka" />
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-                <div className="col-4">
-                  <img src={Xiva} />
-                  <div className="text">
-                    <p>Xiva</p>
-                    <Link to="/bukhara">
-                      <button>
-                        Ko’rish
-                        <img src={arrow} alt="strelka" />
-                      </button>
-                    </Link>
-                  </div>
-                </div>
+            <div className="card">
+              <img src={Samarqand} />
+              <div className="text">
+                <p>Samarqand</p>
+                <Link to="/bukhara">
+                  <button>
+                    Ko’rish
+                    <img src={arrow} alt="strelka" />
+                  </button>
+                </Link>
+              </div>
+            </div>
+            
+            <div className="card">
+              <img src={Xiva} />
+              <div className="text">
+                <p>Xiva</p>
+                <Link to="/bukhara">
+                  <button>
+                    Ko’rish
+                    <img src={arrow} alt="strelka" />
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -179,7 +178,7 @@ function MainPage(props) {
           </Link>
         </div>
       </div>
-      <div className="footerDiv">
+      <div className="footer">
         <Footer />
       </div>
     </div>
