@@ -127,83 +127,75 @@
       margin-bottom: 30px;
     }
     .cards {
-      margin-bottom: 50px;
-      .row {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        .col-12 {
+      display: flex;
+      .card {
+        width: 384px;
+        height: 384px;
+        border-radius: 4px;
+        margin: 0 10px;
+        box-sizing: border-box;
+        background: #ffffff;
+        border-radius: 0px 0px 4px 4px;
+        filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.08));
+        margin-bottom: 20px;
+
+        img {
+          width: 100%;
+          height: 80%;
+        }
+        .text {
           display: flex;
-          align-items: center;
-          .col-4 {
-            width: 384px;
-            height: 384px;
+          justify-content: space-between;
+          margin: 24px 30px;
+          button {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 14px 32px;
             border-radius: 4px;
-            margin: 0 10px;
-
-            background: #ffffff;
-            border-radius: 0px 0px 4px 4px;
-            filter: drop-shadow(0px 8px 16px rgba(0, 0, 0, 0.08));
-
+            background-color: #ffffff;
+            border: 0.1px solid #ffffff;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            text-align: right;
+            color: #326a32;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin-bottom: 10px;
             img {
-              width: 384px;
-              height: 304px;
+              position: static;
+              width: 16px;
+              height: 16px;
+              flex: none;
+              order: 1;
+              flex-grow: 0;
             }
-            .text {
-              display: flex;
-              justify-content: space-between;
-              margin: 24px 30px;
-              button {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                padding: 14px 32px;
-                border-radius: 4px;
-                background-color: #ffffff;
-                border: 0.1px solid #ffffff;
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 20px;
-                display: flex;
-                align-items: center;
-                text-align: right;
-                color: #326a32;
-                flex: none;
-                order: 0;
-                flex-grow: 0;
-                margin-bottom: 10px;
-                img {
-                  position: static;
-                  width: 16px;
-                  height: 16px;
-                  flex: none;
-                  order: 1;
-                  flex-grow: 0;
-                }
-              }
+          }
 
-              p {
-                font-family: "Montserrat";
-                font-style: normal;
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 130%;
-                display: flex;
-                align-items: center;
-                color: #000000;
-              }
-              .BtnWatch {
-                width: 16px;
-                height: 16px;
-                flex: none;
-                order: 1;
-                flex-grow: 0;
-                margin: 0px 8px;
-              }
-            }
+          p {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 130%;
+            display: flex;
+            align-items: center;
+            color: #000000;
+          }
+          .BtnWatch {
+            width: 16px;
+            height: 16px;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+            margin: 0px 8px;
           }
         }
       }
@@ -228,30 +220,235 @@
   }
 }
 
-// @media (max-width: 1168px){
-//   .container{
-//     .topblock{
-//       width: 1100px;
-//     }
-//     width: 50px;
-//     margin: 0 auto;
-
-//   }
-//   .footerRegistr{
-//     width: 100%;
-//   }
-// }
-// @media (max-width: 768px) {
-//   .topblock {
-//     .TimeLine {
-//       width: 100%;
-//     }
-//   }
-// }
-
-// @media screen and (max-width: 576px){
-//   .container{
-//     margin: 0 20;
-//   }
+// media 768px
+@media screen and (max-width: 768px) {
+  .main{
+    .container{
+      margin: 0 auto !important;
+      padding: 0;
+    }
+  }
+  .FirstMainBlock{
+    display: flex;
+    flex-direction: column-reverse;
+    .ImgLeftMainBlock{
+      margin-bottom: 20px;
+      margin-left: 100px;
+      
+    }
+  }
+  .leftText p{
+    width: 500px !important;
+  } 
+  .Advancedsearch{
+    width: 150% !important;
+  }
+  .header{
+    .con2{
+      display: none;
+    }
+  }
+  .middleBlock{
+    flex-direction: column-reverse;
+  }
+  .middleBlockLow{
+    flex-direction: column;
+  }
+  .Platform{
+    img{
+      width: auto;
+    }
+  }
+  link{
+    img{
+      width: auto;
+    }
+  }
+  .container2{
+    width: 108%;
+  }
+  .footerRegistr{
+    width: 108%;
+  }
+  .container1{
+    width: 108%;
+    .container{
+      .con1{
+        width: 108%;
+        .btn1{
+          padding: auto;
+          width: auto;
+        }
+        div{
+          img{
+            width: auto;
+          }
+        }
+      }
+    }
+  }
   
-// }
+}
+
+
+// media 992px
+@media screen and (max-width: 992px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    width: 100% !important;
+  }
+  .container {
+    width: 100% !important;
+    margin: 0 auto !important;
+    box-sizing: border-box !important;
+  }
+  img{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+  }
+  .Platform{
+    img {
+      width: auto;
+    
+    }
+  }
+
+  .middleBlock {
+    flex-direction: column-reverse;
+    .forEmployer {
+      margin-top: 0 !important;
+      width: 100% !important;
+    }
+    margin-top: 0;
+  }
+  .middleBlockLow {
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: space-between !important;
+    width: 100% !important;
+    flex-direction: column;
+  }
+  .Advancedsearch {
+    width: 350px;
+    margin-right: -70px;
+    margin-top: 20px;
+    width: 190%;
+  }
+  .leftBigText {
+    width: 300px !important;
+  }
+  .FirstMainBlock{
+    flex-direction: column-reverse;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 600px;
+    margin-left: 10%;
+    
+    .card{
+      width: 100%;
+      margin: 0 auto !important;
+      margin-top: 15px !important;
+      img{
+        width: auto;
+        height: auto;
+      }
+    }
+  }
+  .leftText p {
+    font-weight: 500;
+  }
+  .leftBigText{
+    width: 100% !important;
+    font-weight: 500 !important;
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .header {
+    width: 100%;
+    .con2{
+      display: none;
+    }
+  }
+  .footer {
+    width: 100%;
+  }
+  .carousel__box{
+    width: auto;
+  }
+  .imgManWithPhone{
+    width: 440px;
+    height: 500px;
+  }
+  .forEmployerText{
+    br{
+      display: none;
+    }
+    width: 100% !important;
+  }
+  .forGits{
+    br{
+      display: none;
+    }
+    .middleBlockLowText{
+      width: 100% !important;
+    }
+  }
+  .imgGirlWithEarth,.imgManWithPhone{
+    margin: 0 auto;
+  }
+  .BigSearch{
+    .container{
+      margin: 0px !important;
+    }
+  }
+  .link{
+    img{
+      width: auto;
+    }
+  }
+  .footer{
+    .container{
+      margin: 0;
+    }
+    width: 100%;
+  }
+  .con-2{
+    width: 100%;
+  }
+  .container2{
+    width: 100%;
+  }
+  .footerRegistr{
+    width: 100%;
+  }
+  .container1{
+    width: 100%;
+    .container{
+      .con1{
+        width: 100%;
+        .btn1{
+          padding: auto;
+          width: auto;
+        }
+        div{
+          img{
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+  .ImgLeftMainBlock{
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+}
