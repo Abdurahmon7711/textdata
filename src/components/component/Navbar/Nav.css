@@ -18,10 +18,12 @@ body{
     box-shadow: 1px 2px 6px rgb(138, 137, 137);
 
 }
+
 .come{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    display: block;
 }
 .con1{
     display: flex;
@@ -34,9 +36,69 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    /* display: block; */
 }
 .a1{
     color: #333;
     font-size: 16px;
     font-family: 'Montserrat';
+}
+.a1:hover{
+    color: #333;
+    border-bottom: 2px solid #777;
+}
+.logo01{
+    width: 15%;
+    height: auto;
+}
+.logo{
+    width: 100%;
+    height: auto;
+}
+.img10{
+    width: 20%;
+    height: auto;
+    margin-right: 5px;
+}
+.bass{
+    display: none;
+}
+@media(max-width:1450px){
+    .a1{
+        font-size: 15px;
+    }
+    .logo01{
+        width: 15%;
+        height: auto;
+    }
+}
+@media(max-width:1330px){
+    .a1{
+        font-size: 13px;
+    }
+    /* .logo01{
+        width: 20%;
+        height: auto;
+    } */
+}
+@media(max-width:1160px){
+     .bass{
+         display: block;
+     }
+     .con2{
+         display: none;
+     }
+     .come{
+         display: none;
+     }
+     .logo01{
+        width: 20%;
+        height: auto;
+    }
+}
+@media(max-width:600px){
+     .logo01{
+        width: 35%;
+        height: auto;
+    }
 }

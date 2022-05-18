@@ -75,31 +75,31 @@ function AboutApp() {
                                 <p>Tafsilotlar</p>
                             </div>
                             <div className='mini2'>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={man} alt="m" />
                                     <p className=''><b className='b001'>E'lon beruvchi :</b> Abdusattor</p>
                                 </div>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={map} alt="" />
                                     <p><b className='b001'>Shahar:</b>Angliya, London </p>
                                 </div>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={calendar} alt="m" />
                                     <p><b className='b001'>Sana:</b>23.01.2021 | 30.01.2021</p>
                                 </div>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={hamyon} alt="m" />
                                     <p><b className='b001'>Narx (gacha):</b>50$ kuniga</p>
                                 </div>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={mansearch} alt="m" />
                                     <p><b className='b001'>Kim kerak:</b>Tarjimon</p>
                                 </div>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={language} alt="m" />
                                     <p><b className='b001'>Tillar:</b>Rus tili, Ingiliz tili</p>
                                 </div>
-                                <div className='a1'>
+                                <div className='a01'>
                                     <img className='a2' src={group} alt="m" />
                                     <p><b className='b001'>Odamlar soni:</b>4 kishi</p>
                                 </div>
