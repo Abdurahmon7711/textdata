@@ -24,163 +24,165 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function MainPage(props) {
   return (
-    <div className="main">
-      <div className="header">
-        <Nav />
-      </div>
-      <div className="container">
-        <div className="topblock">
-          <div className="FirstMainBlock">
-            <div className="BigSearch">
-              <AdvancedSearch />
+    <div>
+      <Nav />
+      <div className="main">
+        <div className="header"></div>
+        <div className="container">
+          <div className="topblock">
+            <div className="FirstMainBlock">
+              <div className="BigSearch">
+                <AdvancedSearch />
+              </div>
+
+              <div className="LeftFirstMainBlock">
+                <div className="leftText">
+                  <p class="leftBigText">
+                    Dunyo bo'ylab ishonchli gidlar va
+                    <br />
+                    tarjimonlarni taklif qilamiz
+                  </p>
+                </div>
+                <div className="ImgLeftMainBlock">
+                  <img className="imgleftmg" src={phone} />
+                </div>
+              </div>
+            </div>
+            <div className="ourOffer">
+              <Title text="Biz nima taklif qilamiz" />
             </div>
 
-            <div className="LeftFirstMainBlock">
-              <div className="leftText">
-                <p class="leftBigText">
-                  Dunyo bo'ylab ishonchli gidlar va
+            <div className="middleBlock">
+              <div className="forEmployer">
+                <h4>Tadbirkorlar uchun</h4>
+                <p className="forEmployerText">
+                  Ushbu platforma yordamida siz chet elliklar bilan
                   <br />
-                  tarjimonlarni taklif qilamiz
+                  kelishish, biznesni rivojlantirish uchun tarjimon va gitlarni
+                  topishingiz mumkin.&nbsp;
+                  <br />
+                  O’zingiz uchun Git tanlang yoki shunchaki ariza qoldiring.
                 </p>
+                <div className="buttons__gr">
+                  <Link to="/authorization">
+                    <Button button="Ariza qoldirish" />
+                  </Link>
+                  <div className="Buttonout">
+                    <Link to="chooseGits">
+                      <Buttonout button2="Gitni tanlash" />
+                    </Link>
+                  </div>
+                </div>
               </div>
-              <div className="ImgLeftMainBlock">
-                <img src={phone} />
+              <div className="imgManWithPhone">
+                <img src={MenWithPhone} />
               </div>
             </div>
-          </div>
-          <div className="ourOffer">
-            <Title text="Biz nima taklif qilamiz" />
-          </div>
 
-          <div className="middleBlock">
-            <div className="forEmployer">
-              <h4>Tadbirkorlar uchun</h4>
-              <p className="forEmployerText">
-                Ushbu platforma yordamida siz chet elliklar bilan
-                <br />
-                kelishish, biznesni rivojlantirish uchun tarjimon va gitlarni
-                topishingiz mumkin.&nbsp; 
-                <br />
-                O’zingiz uchun Git tanlang yoki shunchaki ariza qoldiring.
-              </p>
-              <div className="buttons__gr">
-                <Link to="/authorization">
-                  <Button button="Ariza qoldirish" />
-                </Link>
-                <div className="Buttonout">
-                  <Link to="chooseGits">
-                    <Buttonout button2="Gitni tanlash" />
+            <div className="middleBlockLow">
+              <div className="imgGirlWithEarth">
+                <img src={GirlWithEarth} />
+              </div>
+              <div className="forGits">
+                <h4>Gitlar uchun</h4>
+                <p className="middleBlockLowText">
+                  Ushbu platforma yordamida siz o’zingiz uchun
+                  <br />
+                  mijozlarni topishingiz va karyera qilishingiz mumkin.&nbsp;
+                  <br />
+                  Gits.uz platformasi sizni qo’llab quvvatlab turadi.&nbsp;
+                  <br />
+                  Xoziroq ro’yhattan o’ting, ma’lumotlaringizni to’ldiring va
+                  o’z karyerangizni boshlang!
+                </p>
+                <div className="registrationBtn">
+                  <Link to="/authorization">
+                    <Button button="Ro‘yhattan o’tish" />
                   </Link>
                 </div>
               </div>
             </div>
-            <div className="imgManWithPhone">
-              <img src={MenWithPhone} />
+            <div className="howWork">
+              <Title text="Bu qanday ishlaydi" />
             </div>
-          </div>
+            <div className="TimeLine">
+              <Timeline />
+            </div>
+            <div className="mostCity">
+              <Title text="Eng ko’p boriladigan shaharlar" />
+            </div>
+            <div className="cards">
+              <div className="card">
+                <img src={Buxoro} />
+                <div className="text">
+                  <p>Buxoro</p>
+                  <Link to="/bukhara">
+                    <button>
+                      Ko’rish
+                      <img src={arrow} alt="strelka" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
 
-          <div className="middleBlockLow">
-            <div className="imgGirlWithEarth">
-              <img src={GirlWithEarth} />
-            </div>
-            <div className="forGits">
-              <h4>Gitlar uchun</h4>
-              <p className="middleBlockLowText">
-                Ushbu platforma yordamida siz o’zingiz uchun
-                <br />
-                mijozlarni topishingiz va karyera qilishingiz mumkin.&nbsp; 
-                <br />
-                Gits.uz platformasi sizni qo’llab quvvatlab turadi.&nbsp;
-                <br />
-                Xoziroq ro’yhattan o’ting, ma’lumotlaringizni to’ldiring va o’z
-                karyerangizni boshlang!
-              </p>
-              <div className="registrationBtn">
-                <Link to="/authorization">
-                  <Button button="Ro‘yhattan o’tish" />
-                </Link>
+              <div className="card">
+                <img src={Samarqand} />
+                <div className="text">
+                  <p>Samarqand</p>
+                  <Link to="/bukhara">
+                    <button>
+                      Ko’rish
+                      <img src={arrow} alt="strelka" />
+                    </button>
+                  </Link>
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="howWork">
-            <Title text="Bu qanday ishlaydi" />
-          </div>
-          <div className="TimeLine">
-            <Timeline />
-          </div>
-          <div className="mostCity">
-            <Title text="Eng ko’p boriladigan shaharlar" />
-          </div>
-          <div className="cards">
-            <div className="card">
-              <img src={Buxoro} />
-              <div className="text">
-                <p>Buxoro</p>
-                <Link to="/bukhara">
-                  <button>
-                    Ko’rish
-                    <img src={arrow} alt="strelka" />
-                  </button>
-                </Link>
-              </div>
-            </div>
 
-            <div className="card">
-              <img src={Samarqand} />
-              <div className="text">
-                <p>Samarqand</p>
-                <Link to="/bukhara">
-                  <button>
-                    Ko’rish
-                    <img src={arrow} alt="strelka" />
-                  </button>
-                </Link>
+              <div className="card">
+                <img src={Xiva} />
+                <div className="text">
+                  <p>Xiva</p>
+                  <Link to="/bukhara">
+                    <button>
+                      Ko’rish
+                      <img src={arrow} alt="strelka" />
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
-            
-            <div className="card">
-              <img src={Xiva} />
-              <div className="text">
-                <p>Xiva</p>
-                <Link to="/bukhara">
-                  <button>
-                    Ko’rish
-                    <img src={arrow} alt="strelka" />
-                  </button>
-                </Link>
-              </div>
+            <div className="mostCity">
+              <Title text="Mijozlarlamizning fikirlari" />
             </div>
-          </div>
-          <div className="mostCity">
-            <Title text="Mijozlarlamizning fikirlari" />
-          </div>
-          <div className="slideComments">
-            <BootstrapCarouselComponent />
-          </div>
-          <div className="mostCity">
-            {/* <Title text="Xoziroq o’zingiz uchun Git tanlang " />
+            <div className="slideComments">
+              <BootstrapCarouselComponent />
+            </div>
+            <div className="mostCity">
+              {/* <Title text="Xoziroq o’zingiz uchun Git tanlang " />
           <Title text="yoki shunchaki ariza qoldiring." /> */}
+            </div>
+          </div>
+        </div>
+
+        <div className="footerRegistr">
+          <p className="footerRegText">
+            Xoziroq ro’yhattan o’ting, ma’lumotlaringizni <br /> to’ldiring va
+            o’z karyerangizni boshlang!
+          </p>
+          <div className="bottomButtons">
+            <Link to="/authorization">
+              <Button button="Ariza qoldirish" />
+            </Link>
+            <Link to="/chooseGits">
+              <Buttonout button2="Gitni tanlash" />
+            </Link>
           </div>
         </div>
       </div>
-
-      <div className="footerRegistr">
-        <p className="footerRegText">
-          Xoziroq ro’yhattan o’ting, ma’lumotlaringizni <br /> to’ldiring va o’z
-          karyerangizni boshlang!
-        </p>
-        <div className="bottomButtons">
-          <Link to="/authorization">
-            <Button button="Ariza qoldirish" />
-          </Link>
-          <Link to="/chooseGits">
-            <Buttonout button2="Gitni tanlash" />
-          </Link>
+        <div className="footer">
+         
         </div>
-      </div>
-      <div className="footer">
         <Footer />
-      </div>
     </div>
   );
 }

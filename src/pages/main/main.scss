@@ -8,6 +8,7 @@
   .topblock {
     margin-top: 39px;
     .FirstMainBlock {
+      width: 100%;
       display: flex;
       justify-content: space-between;
       margin: 2px;
@@ -15,15 +16,20 @@
 
       .BigSearch {
         align-items: center;
-        width: 384px;
-        height: 1206px;
-        margin-right: 67px;
+        width: 100%;
+        height: auto;
       }
       .LeftFirstMainBlock {
+        width: 100%;
         .leftText {
+          width: 100%;
+          .leftBigText{
+            width: 100%;
+            margin: 0 auto;
+          }
           p {
-            width: 792px;
-            height: 88px;
+            width: 100%;
+            height: auto;
             font-family: "Montserrat";
             font-style: normal;
             font-weight: 700;
@@ -48,10 +54,10 @@
       margin-top: 82px;
 
       .forEmployer {
-        width: 486px;
+        width: 100%;
         margin-top: 135px;
         h4 {
-          width: 240.46px;
+          width: 100%;
           height: 36px;
           font-family: "Montserrat";
           font-style: normal;
@@ -69,8 +75,8 @@
 
         .forEmployerText {
           margin-top: 5px;
-          width: 486px;
-          height: 135px;
+          width: 100%;
+          height: auto;
           font-family: "Montserrat";
           font-style: normal;
           font-weight: 400;
@@ -90,7 +96,7 @@
       margin-top: 148px;
       h4 {
         margin-top: 90px;
-        width: 240.46px;
+        width: 100%;
         height: 36px;
         font-family: "Montserrat";
         font-style: normal;
@@ -108,8 +114,8 @@
 
     .middleBlockLowText {
       margin-top: 5px;
-      width: 486px;
-      height: 135px;
+      width: 100%;
+      height: auto;
       left: 798px;
       top: 2362px;
       font-family: "Montserrat";
@@ -128,9 +134,11 @@
     }
     .cards {
       display: flex;
+      width: 80%;
+      margin: 0 auto;
       .card {
-        width: 384px;
-        height: 384px;
+        width: 100%;
+        height: auto;
         border-radius: 4px;
         margin: 0 10px;
         box-sizing: border-box;
@@ -219,11 +227,90 @@
     }
   }
 }
+.link{
+  img{
+    width: auto;
+  }
+}
+// media 330px
+@media screen and (max-width: 330px) {
+  .btn1{
+    padding: 5px 10px!important;
+  }
+  .Platform img{
+    margin: 0 !important;
+  }
+  .imgleftmg{
+    width: 100%;
+  }
+  .carousel__box{
+    width: 100% !important;
+  }
+  .carousel__block{
+    display: flex;
+    flex-direction: column;
+  }
+  .card{
+    .text{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .mostCity {
+    .title{
+      width: 100% !important;
+      font-size: 20px !important;
+    }
+  }
+  
+}
+// media 576px
+@media screen and (max-width: 576px) {
+  .main{
+    margin: 0 auto !important;
+    .container{
+      width: 90% !important;
+      margin: 0 auto;
+    }
+  }
+  .BigSearch{
+    .container{
+      width: 100% !important;
+      .Advancedsearch{
+        width: 100%;
+        
+      }
+    }
+  }
+  .leftBigText{
+    font-size: 25px !important;
+  }
+  .ImgLeftMainBlock{
+     margin-top: 20px !important;
+  }
+  .Platform img{
+    margin: 0;
+  }
+  .carousel__block{
+    display: flex;
+    flex-direction: column;
+  }
+  .forGits{
+    h4{
+      margin-top: 5% !important;
+    }
+  }
+  
+}
+
 
 // media 768px
 @media screen and (max-width: 768px) {
   .main{
     .container{
+      width: 100%;
       margin: 0 auto !important;
       padding: 0;
     }
@@ -233,15 +320,14 @@
     flex-direction: column-reverse;
     .ImgLeftMainBlock{
       margin-bottom: 20px;
-      margin-left: 100px;
-      
+      margin-top: 50px !important;      
     }
   }
   .leftText p{
-    width: 500px !important;
+    width: 100%;
   } 
   .Advancedsearch{
-    width: 150% !important;
+    width: 100%;
   }
   .header{
     .con2{
@@ -265,16 +351,16 @@
     }
   }
   .container2{
-    width: 108%;
+    width: 100%;
   }
   .footerRegistr{
-    width: 108%;
+    width: 100%;
   }
   .container1{
-    width: 108%;
+    width: 100%;
     .container{
       .con1{
-        width: 108%;
+        width: 100%;
         .btn1{
           padding: auto;
           width: auto;
@@ -285,6 +371,18 @@
           }
         }
       }
+    }
+  }
+  .carousel__box{
+    width: 100% !important;
+    .carousel__block{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  .forGits{
+    h4{
+      margin-top: 5% !important;
     }
   }
   
@@ -306,7 +404,7 @@
     box-sizing: border-box !important;
   }
   img{
-    width: 500px;
+    width: 100%;
     height: auto;
     object-fit: cover;
   }
@@ -333,13 +431,12 @@
     flex-direction: column;
   }
   .Advancedsearch {
-    width: 350px;
-    margin-right: -70px;
+    margin-right: 0;
     margin-top: 20px;
-    width: 190%;
+    width: 100%
   }
   .leftBigText {
-    width: 300px !important;
+    width: 100%;
   }
   .FirstMainBlock{
     flex-direction: column-reverse;
@@ -348,7 +445,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 600px;
+    width: 100%;
     margin-left: 10%;
     
     .card{
@@ -365,7 +462,7 @@
     font-weight: 500;
   }
   .leftBigText{
-    width: 100% !important;
+    width: 100% ;
     font-weight: 500 !important;
     font-size: 30px;
     line-height: 40px;
@@ -385,8 +482,8 @@
     width: auto;
   }
   .imgManWithPhone{
-    width: 440px;
-    height: 500px;
+    width: 100%;
+    height: auto;
   }
   .forEmployerText{
     br{
@@ -448,7 +545,25 @@
     }
   }
   .ImgLeftMainBlock{
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-top: 5% !important;
+  }
+}
+
+// media 1200px
+@media screen and (max-width: 1200px){
+  .BigSearch{
+    width: auto !important;
+  }
+  .ourOffer{
+    margin-top: 5% !important;
+  }
+  .LeftFirstMainBlock{
+    width: 50%;
+    .ImgLeftMainBlock{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
   }
 }
