@@ -54,13 +54,13 @@ function Application() {
                                             <span>20.06.21</span>
                                         </div>
                                     </div>
-                                    {/* <p>
+                                    <p>
                                         asgdfyewgfgyrefgrgfygyrf
                                         frhrfyryf
                                         rfhurfugrfrfhrufgyryfrygfyrgfyrgfyrgfr
                                         rfrf
                                         frfurfrh
-                                    </p> */}
+                                    </p>
                                 </div>
                             </div>
                         </div>
