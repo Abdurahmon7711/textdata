@@ -15,7 +15,7 @@ function Nav(props) {
 
   return (
     <div className="container1">
-      <div className="container">
+      <div className="container ">
         <div className="con1">
           <div className="logo01">
             <Link to="/">
