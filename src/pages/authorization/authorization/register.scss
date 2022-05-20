@@ -139,3 +139,74 @@
     margin-top: 20px;
 }
 
+@media screen and (max-width: 576px) {
+  .registerBlock{
+    width: auto;
+    margin: 10% auto;
+  }
+  .EnterEmail{
+    width: 100%;
+    .MuiBox-root{
+      width: 100%;
+      .MuiFilledInput-root{
+        width: 100%
+        
+      }
+    }
+  }
+  .MuiFilledInput-input{
+    width: 100% !important;
+  }
+  .EnterPassword{
+    form{
+      width: auto;
+    }
+    width: 100%;
+    .MuiBox-root{
+      width: 100%;
+      .MuiFilledInput-root{
+        width: 100%;
+      }
+    }
+  }
+  .remindPassword{
+    width: auto !important;
+  }
+  .MuiFilledInput-input MuiInputBase-input  {
+    width: 100%;
+  }
+  .css-xn6ruc>:not(style){
+    width: 100% !important;
+  }
+  .MuiFormControl-root {
+    width: 100% !important;
+  }
+
+  .mainBlock{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto !important;
+    .nameBlock{
+      width: 100%;
+      margin-left: 0;
+      .MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+        width: 100%;
+        margin: 0;
+      }
+    }
+    .surNameBlock{
+      width: 100%;
+      margin: 0;
+      .MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+  .MuiFilledInput-root{
+    width: 100% !important;
+  }
+  .jobBlock{
+    width: 100% !important;
+  }
+}
