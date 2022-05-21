@@ -6,6 +6,9 @@
 }
  
 .container1{
+    position: fixed;
+    top: 0;
+    z-index: 1;
     background-color: #fff;
     width: 100%;
     height: 80px;
@@ -23,10 +26,12 @@
     display: block;
 }
 .con1{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
    
+    
 }
 .con2{
     display: flex;
@@ -103,10 +108,7 @@
     }
 }
 @media(max-width:600px){
-     .logo01{
-       
-        height: auto;
-    }
+    
 }
 
 .openmenu{
@@ -114,11 +116,14 @@
     flex-direction: column;
 }
 .media1{
-    margin-top: 60%;
-    padding-top: 20%;
+    position: absolute;
+    top: 80px;
+    /* margin-top: 105vh; */
+    padding-top: 40%;
     width: 100%;
-    height: 65vh;
+    height: 100vh;
     /* background-color: #777 */
-    background: rgba(255, 255, 255, 0.72);
+    background: rgba(247, 255, 246, 0.5);
     backdrop-filter: blur(12px);
+    margin-left: -12px;
 }

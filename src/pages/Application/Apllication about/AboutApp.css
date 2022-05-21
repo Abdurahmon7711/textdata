@@ -131,3 +131,9 @@
 .modalbtn {
     transform: scale(1, 1);
 }
+@media(max-width:992px){
+    a2{
+        width: auto !important;
+        height: auto;
+    }
+}
