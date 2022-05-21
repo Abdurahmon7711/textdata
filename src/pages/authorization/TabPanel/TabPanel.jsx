@@ -87,12 +87,12 @@ export default function BasicTabs(label) {
         </div>
 
         <select className="jobBlock">
-          <option value="translater">Tarjimon</option>
-          <option value="gid">Gid</option>
-          <option selected value="writer">
+          <option className="option1" selected  value="translater">Tarjimon</option>
+          <option className="option1" value="gid">Gid</option>
+          <option className="option1"  value="writer">
             Yozuvchi
           </option>
-          <option value="copywriter">Kopirayter</option>
+          <option className="option1" value="copywriter">Kopirayter</option>
         </select>
         <div className="EnterEmail">
           <BasicTextFields label="E-mail ni kiriting" />

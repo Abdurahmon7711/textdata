@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0;
 }
-
+.option1{
+  width: 100% !important;
+ 
+  border: none !important;
+  outline: none !important;
+}
 .registerBlock {
   display: flex;
   justify-content: center;
