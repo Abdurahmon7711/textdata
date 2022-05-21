@@ -10,6 +10,7 @@ import Contact from '../pages/01werka/Contact/Contact'
 import Suggestions from '../pages/01werka/Suggestions/Suggestions'
 import Bukhara from '../pages/ChineBlog/Bukhara'
 import Xitoy from '../pages/ChineBlog/Xitoy'
+import AboutApp from '../pages/Application/Apllication about/AboutApp'
 
 
 function Routs() {
@@ -25,7 +26,8 @@ function Routs() {
             <Route path='/suggestions' element={<Suggestions/>}></Route>
             <Route path='/bukhara' element={<Bukhara/>}></Route>
             <Route path='/china' element={<Xitoy/>}></Route>
-
+            <Route path='/aboutapp' element={<AboutApp/>}></Route>
+   
         </Routes>
     )
 }

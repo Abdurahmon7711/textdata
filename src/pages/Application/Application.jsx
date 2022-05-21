@@ -54,13 +54,6 @@ function Application() {
                                             <span>20.06.21</span>
                                         </div>
                                     </div>
-                                    <p>
-                                        asgdfyewgfgyrefgrgfygyrf
-                                        frhrfyryf
-                                        rfhurfugrfrfhrufgyryfrygfyrgfyrgfyrgfr
-                                        rfrf
-                                        frfurfrh
-                                    </p>
                                 </div>
                             </div>
                         </div>
