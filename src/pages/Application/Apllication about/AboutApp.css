@@ -49,7 +49,7 @@
 }
 
 .mini2 {
-    line-height: 200%;
+    line-height: 250%;
     margin-bottom: 50px;
     width: 90%;
     height: 420px;
@@ -131,9 +131,39 @@
 .modalbtn {
     transform: scale(1, 1);
 }
-@media(max-width:992px){
-    a2{
+@media(max-width:1120px){
+    .a2{
         width: auto !important;
+        height: auto;
+    }
+    .mini4{
+        font-size: 14px !important;
+    }
+}
+@media(max-width:935px){
+    .con-01{
+        display: flex;
+        flex-direction: column;
+    }
+    .con-02{
+        width: 100%;
+        height: auto;
+    }
+    .con-03{
+        height: auto;
+        width: 100%;
+    }
+    .mini1{
+        width: 100%;
+    }
+    .mini2{
+        width: 100%;
+    }
+    .mini3{
+        width: 100%;
+    }
+    .mini4{
+        width: 100%;
         height: auto;
     }
 }
