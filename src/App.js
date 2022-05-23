@@ -20,14 +20,14 @@ function App() {
     // </Routs>
  
    
-    // <Routs>
-    //    <div className="App">
-    //       <MainPage/>
-    //    </div>
-    // </Routs>
-    <div>
-      <Xitoy/>
-    </div>
+    <Routs>
+       <div className="App">
+          <MainPage/>
+       </div>
+    </Routs>
+    // <div>
+    //   <Xitoy/>
+    // </div>
    
   );
 }

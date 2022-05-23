@@ -5,19 +5,26 @@
     color: #000000;
     margin-top: 50px;
 }
+.rasmlarr img{
+    width: 100%;
+    margin: 20px auto;
+}
+div .btn1{
+    padding: inherit;
+}
+.left img{
+    width: auto !important;
+}
+.top img{
+    width: auto !important;
+}
 .left1{
     flex-direction: column;
     margin-top: 50px;
 }
+
 .Githaqida{
     display: flex;
-}
-img{
-    width: auto !important;
-}
-.rasmlarr img{
-    width: 100% !important;  
-    margin-left: 0;
 }
 .left1_rasm{
     margin-top: 20px;
