@@ -9,3 +9,9 @@
 .btn1:hover{
     transform: scale(1,1);
 }
+@media(max-width:576px){
+    .btn1{
+        width: 30%;
+        height: 5vh;
+    }
+}

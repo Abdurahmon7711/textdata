@@ -25,7 +25,12 @@
     margin-left: 10%;
     line-height: 200%;
 }
-
+.inp2 p{
+    margin-bottom: 1rem;
+}
+.con02 p{
+    margin-bottom: 0px !important;
+}
 .inp3 {
     width: 85%;
     height: 50px;
@@ -59,12 +64,15 @@
     align-items: center;
     margin-top: 15px;
     margin-right: 20px;
+    width: 100%;
 }
 .img1{
     width: 18px;
     height: 18px;
-    margin-right: 10px;
-    margin-top: -15px;
+    /* margin-right: 10px; */
+    /* margin-top: -15px; */
+    margin: auto 10px !important;
+    height: auto;
 }
 .con01 {
     color: black;
