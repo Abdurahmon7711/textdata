@@ -29,8 +29,10 @@
     .MuiFilledInput-root:after {
       border-bottom-color: none;
     }
+    .css-10botns-MuiInputBase-input-MuiFilledInput-input{
+      padding-left: 0;
+    }
   }
-
   .EnterPassword {
     .MuiFilledInput-root {
       display: flex;
@@ -46,18 +48,41 @@
       flex-grow: 0;
       border: 2px solid #fafcfa;
     }
+    .css-10botns-MuiInputBase-input-MuiFilledInput-input{
+      padding-left: 0;
+    }
   }
-
-  .remindPassword {
-    width: 406px;
-    height: 56px;
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: right;
-    color: #1d3d1d;
+  .checkBlock{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right:  5%;
+    margin-bottom: 20px;
+    .savePassword{
+      display: flex;
+      margin-left: 2%;;
+      .checkbox{
+        margin-top: 7%;
+        margin-left: 0;
+      }
+      p{
+        margin-left: 2px;
+        font-size: 16px;
+      }
+    }
+    .remindPassword {
+      width: auto;
+      height: auto;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: right;
+      color: #1d3d1d;
+      margin-top: 1%;
+    }
   }
 
   .mainBlock {
@@ -109,8 +134,8 @@
     border-radius: 4px;
     border: 2px solid #fafcfa;
     outline: none;
-  }
-
+    color: #1d3d1d !important;
+  }  
   .EnterEmail {
     margin-top: 10px;
     .MuiFilledInput-root {

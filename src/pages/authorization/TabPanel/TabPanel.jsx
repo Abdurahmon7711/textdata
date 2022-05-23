@@ -68,7 +68,14 @@ export default function BasicTabs(label) {
         <div className="EnterPassword">
           <BasicTextFields label="Parolingizni kiriting" textType="password" />
         </div>
-        <p className="remindPassword">Parolni eslatish</p>
+        <div className="checkBlock">
+          <div className="savePassword">
+            <input className="checkbox" type="checkbox"/>
+            <span>Eslab qolish</span>
+          </div>
+          
+          <p className="remindPassword">Parolni eslatish</p>
+        </div>       
         <div className="enterBtn">
           <Link to="/">
             <Button button="Kirish" />
