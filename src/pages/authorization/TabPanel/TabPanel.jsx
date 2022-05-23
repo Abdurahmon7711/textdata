@@ -68,7 +68,14 @@ export default function BasicTabs(label) {
         <div className="EnterPassword">
           <BasicTextFields label="Parolingizni kiriting" textType="password" />
         </div>
-        <p className="remindPassword">Parolni eslatish</p>
+        <div className="checkBlock">
+          <div className="savePassword">
+            <input className="checkbox" type="checkbox"/>
+            <span>Eslab qolish</span>
+          </div>
+          
+          <p className="remindPassword">Parolni eslatish</p>
+        </div>       
         <div className="enterBtn">
           <Link to="/">
             <Button button="Kirish" />
@@ -87,12 +94,12 @@ export default function BasicTabs(label) {
         </div>
 
         <select className="jobBlock">
-          <option value="translater">Tarjimon</option>
-          <option value="gid">Gid</option>
-          <option selected value="writer">
+          <option className="option1" selected  value="translater">Tarjimon</option>
+          <option className="option1" value="gid">Gid</option>
+          <option className="option1"  value="writer">
             Yozuvchi
           </option>
-          <option value="copywriter">Kopirayter</option>
+          <option className="option1" value="copywriter">Kopirayter</option>
         </select>
         <div className="EnterEmail">
           <BasicTextFields label="E-mail ni kiriting" />
