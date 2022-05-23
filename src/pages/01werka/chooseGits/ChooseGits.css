@@ -12,6 +12,13 @@
 .Githaqida{
     display: flex;
 }
+img{
+    width: auto !important;
+}
+.rasmlarr img{
+    width: 100% !important;  
+    margin-left: 0;
+}
 .left1_rasm{
     margin-top: 20px;
     margin-left: 13px;
