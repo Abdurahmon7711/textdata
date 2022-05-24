@@ -1,9 +1,12 @@
 import React from 'react'
 import './Buttonout.css'
+function scroll(){
+    window.scrollTo(0,0)
+}
 function Buttonout(props) {
     return (
         <div>
-            <button className='btn2'>{props.button2}</button>
+            <button onClick={scroll} className='btn2'>{props.button2}</button>
         </div>
     )
 }

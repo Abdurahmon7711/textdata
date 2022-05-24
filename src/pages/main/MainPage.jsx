@@ -1,87 +1,187 @@
-import React from 'react'
-// import AdvancedSearch from "../../components/templets/AdvancedSearch/AdvancedSearch"
-import "./main.scss"
+import React from "react";
+import AdvancedSearch from "../../components/templets/AdvancedSearch/AdvancedSearch";
+import "./main.scss";
+import Nav from "../../components/component/Navbar/Nav";
+import Footer from "../../components/component/Futter/Futter";
+import Title from "../../components/component/titleBig/Title";
+import Button from "../../components/component/buttnBg/Button";
+import Buttonout from "../../components/component/buttonoutline/Buttonout";
+import { Container as Cont } from "@mui/material";
+import { Container } from "react-bootstrap";
+import Timeline from "../../components/component/Timeline/Timeline";
+import { Link } from "react-router-dom";
 
-// import TitleBig from "../../components/component/titleBig/Title"
-import Nav from "../../components/component/Navbar/Nav"
-import Footer from "../../components/component/Futter/Futter"
 // import images
-import ArrowNumber from "../../assets/Nurlan/img/MainPage/ArrowNumber.png"
-import phone from "../../assets/Nurlan/img/MainPage/GuyAndPhone.jpg"
-import MenWithPhone from "../../assets/Nurlan/img/MainPage/MenWithPhone.png"
-import GirlWithEarth from "../../assets/Nurlan/img/MainPage/GirlWithEarth.png"
-import GirlPlatform from "../../assets/Nurlan/img/MainPage/GirlPlatform.png"
-import MenWithNote from "../../assets/Nurlan/img/MainPage/MenWithNote.png"
+import phone from "../../assets/Nurlan/img/MainPage/GuyAndPhone.jpg";
+import MenWithPhone from "../../assets/Nurlan/img/MainPage/MenWithPhone.png";
+import GirlWithEarth from "../../assets/Nurlan/img/MainPage/GirlWithEarth.png";
+import Buxoro from "../../assets/Nurlan/img/MainPage/Buxoro.jpg";
+import Samarqand from "../../assets/Nurlan/img/MainPage/Samarqand.jpg";
+import Xiva from "../../assets/Nurlan/img/MainPage/Xiva.jpg";
+import BootstrapCarouselComponent from "../../components/component/carousel/BootstrapCarouselComponent";
+import arrow from "../../assets/Nurlan/img/MainPage/right.svg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
+function MainPage(props) {
+  return (
+    <div>
+      <Nav />
+      <div className="main">
+        <div className="header"></div>
+        <div className="container">
+          <div className="topblock">
+            <div className="FirstMainBlock">
+              <div className="BigSearch">
+                <AdvancedSearch />
+              </div>
 
-function MainPage() {
-    return (
-        <div>
-            <Nav />
-            <div className="container">
-                <div className='FirstMainBlock'>
-                    <div className='BigSearch'>
-
-                    </div>
-                    {/* <BigSearch/> */}
-                    <div className='LeftFirstMainBlock'>
-                        <h3 className='TextBig'>Dunyo bo'ylab ishonchli gidlar va tarjimonlarni taklif qilamiz</h3>
-                        {/* <TextBig/>*/}
-                        <div className="ImgLeftMainBlock">
-                            <img src={phone} />
-                        </div>
-                    </div>
+              <div className="LeftFirstMainBlock">
+                <div className="leftText">
+                  <p class="leftBigText">
+                    Dunyo bo'ylab ishonchli gidlar va
+                    <br />
+                    tarjimonlarni taklif qilamiz
+                  </p>
                 </div>
-
-                {/* <TextMini/> */}
-                <div className="middleBlock">
-                    <div className="forCongratulations">
-                        <h4>Tadbirkorlar uchun</h4>
-                        <p className='forCongratulationsText'>Ushbu platforma yordamida siz chet elliklar bilan kelishish,
-                            biznesni rivojlantirish uchun tarjimon va gitlarni topishingiz mumkin.
-                            O’zingiz uchun Git tanlang yoki shunchaki ariza qoldiring.</p>
-                        <button>Ariza qoldirish</button>
-                        <button>Gitni tanlash</button>
-                    </div>
-                    <div className='imgManWithPhone'>
-                        <img src={MenWithPhone} />
-                    </div>
+                <div className="ImgLeftMainBlock">
+                  <img className="imgleftmg" src={phone} />
                 </div>
-
-                <div className="middleBlockLow">
-                    <div className="imgGirlWithEarth">
-                        <img src={GirlWithEarth} />
-                    </div>
-                    <div>
-                        <h4>Gitlar uchun</h4>
-                        <p className="middleBlockLowText">Ushbu platforma yordamida siz o’zingiz uchunv mijozlarni topishingiz va karyera qilishingiz mumkin.
-                            Gits.uz platformasi sizni qo’llab quvvatlab turadi.
-                            Xoziroq ro’yhattan o’ting, ma’lumotlaringizni to’ldiring va o’z karyerangizni boshlang!</p>
-                        <button>Ro‘yhattan o’tish</button>
-                    </div>
-                </div> 
-                
-                <div className="LowBlock">
-                    <div className='ArrowBlock'>
-                        <div>
-                            <img src={GirlPlatform}/>
-                            <h4>Ro’yxattan o’tasiz</h4>
-                            <p>Avvalo platformadan Git/Tarjimon yokida Mijoz sifatida ro’yhattan o’tasiz.</p>
-                        </div>
-                        <div>
-                            <img src={ArrowNumber}/>
-                        </div>
-                        <div>
-                            <img src={MenWithNote}/>
-                            <h4>So‘rov qoldirasiz</h4>
-                            <p>Mijoz so‘rov qoldirishi mumkin yokida o‘zi Git/Tarjimoni tanlashi mumkin.</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <Footer />
+            <div className="ourOffer">
+              <Title text="Biz nima taklif qilamiz" />
+            </div>
+
+            <div className="middleBlock">
+              <div className="forEmployer">
+                <h4>Tadbirkorlar uchun</h4>
+                <p className="forEmployerText">
+                  Ushbu platforma yordamida siz chet elliklar bilan
+                  <br />
+                  kelishish, biznesni rivojlantirish uchun tarjimon va gitlarni
+                  topishingiz mumkin.&nbsp;
+                  <br />
+                  O’zingiz uchun Git tanlang yoki shunchaki ariza qoldiring.
+                </p>
+                <div className="buttons__gr">
+                  <Link to="/authorization">
+                    <Button button="Ariza qoldirish" />
+                  </Link>
+                  <div className="Buttonout">
+                    <Link to="chooseGits">
+                      <Buttonout button2="Gitni tanlash" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="imgManWithPhone">
+                <img src={MenWithPhone} />
+              </div>
+            </div>
+
+            <div className="middleBlockLow">
+              <div className="imgGirlWithEarth">
+                <img src={GirlWithEarth} />
+              </div>
+              <div className="forGits">
+                <h4>Gitlar uchun</h4>
+                <p className="middleBlockLowText">
+                  Ushbu platforma yordamida siz o’zingiz uchun
+                  <br />
+                  mijozlarni topishingiz va karyera qilishingiz mumkin.&nbsp;
+                  <br />
+                  Gits.uz platformasi sizni qo’llab quvvatlab turadi.&nbsp;
+                  <br />
+                  Xoziroq ro’yhattan o’ting, ma’lumotlaringizni to’ldiring va
+                  o’z karyerangizni boshlang!
+                </p>
+                <div className="registrationBtn">
+                  <Link to="/authorization">
+                    <Button button="Ro‘yhattan o’tish" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="howWork">
+              <Title text="Bu qanday ishlaydi" />
+            </div>
+            <div className="TimeLine">
+              <Timeline />
+            </div>
+            <div className="mostCity">
+              <Title text="Eng ko’p boriladigan shaharlar" />
+            </div>
+            <div className="cards">
+              <div className="card">
+                <img src={Buxoro} />
+                <div className="text">
+                  <p>Buxoro</p>
+                  <Link to="/bukhara">
+                    <button>
+                      Ko’rish
+                      <img src={arrow} alt="strelka" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="card">
+                <img src={Samarqand} />
+                <div className="text">
+                  <p>Samarqand</p>
+                  <Link to="/bukhara">
+                    <button>
+                      Ko’rish
+                      <img src={arrow} alt="strelka" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+
+              <div className="card">
+                <img src={Xiva} />
+                <div className="text">
+                  <p>Xiva</p>
+                  <Link to="/bukhara">
+                    <button>
+                      Ko’rish
+                      <img src={arrow} alt="strelka" />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="mostCity">
+              <Title text="Mijozlarlamizning fikirlari" />
+            </div>
+            <div className="slideComments">
+              <BootstrapCarouselComponent />
+            </div>
+            <div className="mostCity">
+              {/* <Title text="Xoziroq o’zingiz uchun Git tanlang " />
+          <Title text="yoki shunchaki ariza qoldiring." /> */}
+            </div>
+          </div>
         </div>
-    )
+
+        <div className="footerRegistr">
+          <p className="footerRegText">
+            Xoziroq ro’yhattan o’ting, ma’lumotlaringizni <br /> to’ldiring va
+            o’z karyerangizni boshlang!
+          </p>
+          <div className="bottomButtons">
+            <Link to="/authorization">
+              <Button button="Ariza qoldirish" />
+            </Link>
+            <Link to="/chooseGits">
+              <Buttonout button2="Gitni tanlash" />
+            </Link>
+          </div>
+        </div>
+      </div>
+        <Footer />
+    </div>
+  );
 }
 
-export default MainPage
+export default MainPage;

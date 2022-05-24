@@ -1,0 +1,235 @@
+.register {
+    width: 1366px;
+    height: 680px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.register_tekst {
+    width: 632px;
+    height: 168px;
+    margin-top: 214px;
+    margin-left: 84px;
+    font-weight: 600;
+
+}
+.registr1{
+    margin-bottom: -15px;
+    font-size: 45px;
+}
+.registr2{
+    margin-bottom: -15px;
+    font-size: 45px;
+}
+b{
+    font-size: 45px;
+    margin-bottom: 0px; 
+    color:#326A32 ; 
+
+}
+.registr3{
+    margin-bottom: -15px;
+    font-size: 45px
+}
+.btnnew{
+    margin-top: 20px;
+    margin-left: 83px;
+}
+.register_right{
+    margin-left: 65px;
+    margin-top: 90px;
+}
+/* .group333{
+    width: 100%;
+    margin-left: 0px;
+} */
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+.takliflar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.takliflar_tekst{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.takliflar_tekst2{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.takliflar_tekst22{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.takliflar_tekst222{
+    margin-left: 35px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.takliflar_tekst3{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.takliflar_tekst33{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.taklif_left{
+    margin-right: 55px;
+}
+.takliflar_tekst001{
+    margin-top: 110px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+/* zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz */
+.footerReg{
+    background-color: #F2F8F2;
+    width: 100%;
+    height: 230px;
+    margin-top:50px  ;
+
+}
+.footerRegText{
+    padding-top: 50px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+.btnnew2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 991.98px){
+    .register{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .register_left{
+        width: 100%;
+    }
+    .register_tekst{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 10px;
+        /* display: block; */
+    }
+    .registr1{
+        width: 100% ;
+        font-size: 38px;
+        /* margin-left: 20%; */
+    }
+    .registr2{
+        /* width: 100%; */
+        font-size: 35px;
+        /* margin-left: 15%; */
+    }
+    .registr3{
+        width: 100%;
+        font-size: 38px;
+        /* margin-left: 20%; */
+    }
+    b{
+        width: 100%;
+        font-size: 38px;
+    }
+    .register_right{
+        width: 100%;
+        height: 385px;
+    }
+    .group333{
+       /* width: 100%; */
+       margin-top: -58px;
+       margin-left: -40px !important;
+    }
+    .takliflar{
+        flex-direction: column;
+        margin-left: 40%;
+    }
+    .taklif_left{
+        margin-top: 15px;
+    }
+    .taklif_orta{
+        margin-top: 15px;
+    }
+    .taklif_right{
+        margin-top: 15px;
+    }
+    .footerReg{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 575.98px){
+    .register{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .register_left{
+        width: 100%;
+    }
+    .register_tekst{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 10px;
+        /* display: block; */
+    }
+    .registr1{
+        width: 100% ;
+        font-size: 38px;
+        /* margin-left: 20%; */
+    }
+    .registr2{
+        /* width: 100%; */
+        font-size: 35px;
+        /* margin-left: 15%; */
+    }
+    .registr3{
+        width: 100%;
+        font-size: 38px;
+        /* margin-left: 20%; */
+    }
+    b{
+        width: 100%;
+        font-size: 38px;
+    }
+    .register_right{
+        width: 100%;
+        height: 385px;
+    }
+    .group333{
+       /* width: 100%; */
+       margin-top: -58px;
+       margin-left: -40px !important;
+    }
+    .takliflar{
+        flex-direction: column;
+        margin-left: 40%;
+    }
+    .taklif_left{
+        margin-top: 15px;
+    }
+    .taklif_orta{
+        margin-top: 15px;
+    }
+    .taklif_right{
+        margin-top: 15px;
+    }
+    .footerReg{
+        width: 100%;
+    }
+    
+}
