@@ -373,13 +373,6 @@
       }
     }
   }
-  .carousel__box{
-    width: 100% !important;
-    .carousel__block{
-      display: flex;
-      flex-direction: column;
-    }
-  }
   .forGits{
     h4{
       margin-top: 5% !important;
@@ -543,6 +536,13 @@
   }
   .ImgLeftMainBlock{
     margin-top: 5% !important;
+  }
+  .carousel__box{
+    width: 100% !important;
+    .carousel__block{
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 

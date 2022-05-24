@@ -51,7 +51,7 @@ function Bukhara() {
               ante enim rhoncus, facilisi arcu sagittis, sed. Curabitur nibh
               imperdiet enim est dui...
             </p>
-            <Link to="china">
+            <Link to="/china">
               <Buttonout button2="Davomini O'qish" />
             </Link>
           </div>
@@ -87,7 +87,9 @@ function Bukhara() {
               ante enim rhoncus, facilisi arcu sagittis, sed. Curabitur nibh
               imperdiet enim est dui...
             </p>
-            <Buttonout button2="Davomini O'qish" />
+            <Link to="/china">
+              <Buttonout button2="Davomini O'qish" />
+            </Link>
           </div>
           <div className="div01">
             <div className="div2">
@@ -121,7 +123,9 @@ function Bukhara() {
               ante enim rhoncus, facilisi arcu sagittis, sed. Curabitur nibh
               imperdiet enim est dui...
             </p>
-            <Buttonout button2="Davomini O'qish" />
+            <Link to="/china">
+              <Buttonout button2="Davomini O'qish" />
+            </Link>
           </div>
           <div className="div01">
             <div className="div2">

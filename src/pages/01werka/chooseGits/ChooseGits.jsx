@@ -46,13 +46,14 @@ export default function ChooseGits() {
               <AboutGits />
               <br />
             </div>
-            <div className="gichgich2">
+            
+          </div>
+        </div>
+        <div className="gichgich2">
               <Link to="/chooseGits">
                 <Buttonout button2="Davomi" />
               </Link>
             </div>
-          </div>
-        </div>
       </div>
       <Futter />
     </div>
