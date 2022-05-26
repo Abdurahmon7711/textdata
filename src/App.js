@@ -25,7 +25,9 @@ function App() {
           <MainPage/>
        </div>
     </Routs>
-    
+    // <div>
+    //   <Xitoy/>
+    // </div>
    
   );
 }
