@@ -11,6 +11,7 @@ import FormControl from '@mui/material/FormControl';
 import TextField from '@mui/material/TextField';
 import Visibility from '@mui/icons-material/Visibility';
 import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import './password.scss'
 
 export default function InputAdornments(props) {
   const [values, setValues] = React.useState({
