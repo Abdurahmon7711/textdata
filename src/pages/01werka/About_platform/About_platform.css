@@ -28,12 +28,15 @@
 .platform_right{
     margin-left: 50px;
 }
-@media (max-width: 575.98px){
+@media screen and (max-width: 330px){
     .platform{
         flex-direction: column-reverse;
     }
     .platformText{
         margin-top: 10px;
+    }
+    .platform_left{
+        width: 100%;
     }
     .platform_right{
         /* margin-top: 200px; */
