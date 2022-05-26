@@ -8,6 +8,7 @@ import Button from "../../../components/component/buttnBg/Button";
 import { Link } from "react-router-dom";
 import "../authorization/register.scss";
 import BasicTextFields from "../../../components/component/textField/BasicTextFields";
+import InputAdornments from "../../../components/component/password/InputAdornments";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -66,7 +67,7 @@ export default function BasicTabs(label) {
           <BasicTextFields label="E-mail ni kiriting" />
         </div>
         <div className="EnterPassword">
-          <BasicTextFields label="Parolingizni kiriting" textType="password" />
+          <InputAdornments/>
         </div>
         <div className="checkBlock">
           <div className="savePassword">
@@ -106,13 +107,10 @@ export default function BasicTabs(label) {
         </div>
 
         <div className="EnterPassword">
-          <BasicTextFields textType="password" label="Parolingizni kiriting" />
+          <InputAdornments/>
         </div>
         <div className="EnterPassword">
-          <BasicTextFields
-            textType="password"
-            label="Parolingizni tasdiqlang"
-          />
+          <InputAdornments/>
         </div>
         <div>
           <div className="registerBtn">

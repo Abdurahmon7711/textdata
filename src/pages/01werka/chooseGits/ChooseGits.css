@@ -9,9 +9,6 @@
     width: 100%;
     margin: 20px auto;
 }
-div .btn1{
-    padding: inherit;
-}
 .left img{
     width: auto !important;
 }
@@ -35,7 +32,8 @@ div .btn1{
     margin-left: 30px;
 }
 .gichgich2{
-    margin-left: 170px;
+    display: flex;
+    justify-content: space-around;
     margin-top: 50px;
     padding-bottom: 50px;
 }
@@ -51,11 +49,109 @@ div .btn1{
    .left1_rasm{
        width: 92%;
    }
+   div .btn1{
+       width: auto;
+       height: auto;
+    }
+    .bottom{
+        margin: 15px 30% !important;
+    }
+    .bottom div .btn1{
+        width: 100%;
+    }
+  
+   
+}
+@media (max-width: 992px){
+    .Githaqida{
+        width: 100%;
+        flex-direction: column;
+    }
+   .ozingizuchun{
+       /* width: 100%; */
+       text-align: center;
+   }
+   .left1{
+       margin-top: 0px;
+   }
+   .left1_rasm{
+       width: 92%;
+   }
    .gichgich2{
        margin-right: 50%;
    }
-   
+   .AboutGit{
+       width: 100% !important;
+   }
+   .right .top{
+       display: flex;
+   }
+   .AboutGit .right{
+       display: flex;
+       justify-content: space-between;
+       flex-direction: column;
+   }
+    .right .bottom{
+        margin-top: 0;
+        margin-right: 15px;
+    }
+    .gichgich2{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0px;
+        margin-left: 0;
+        margin-top: 0px
+    }
+    .rasmlarr{
+        display: none;
+    }
+    .right1{
+        width: 100% !important;
+    }
+    .left1 {
+        width: 100% !important;
+    }    
 }
-@media (max-width: 991.98px){
-    
+
+@media screen and (max-width: 1400px) {
+    .Githaqida{
+        width: 100%;
+        display: flex;
+    }    
+    .AboutGit{
+        width: 100%;
+    }
+    .rasmlarr img{
+        width: 384px;
+        margin: 20px 12px;
+    }
+    .left1{
+        width: 45%;
+    }
+    .right1{
+        width: 55%;
+    }
+    .gichgich{
+        margin-left: 0px;
+    }
+    .AboutGit{
+        width: 100% !important;
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .right .bottom{
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+    .gichgich2{
+        display: flex;
+        justify-content: space-around;
+        margin-right: 0px;
+        margin-left: 0;
+        margin-top: 0px
+    }
 }
