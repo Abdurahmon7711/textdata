@@ -90,22 +90,10 @@ export default function Suggestions() {
         <p className='footerRegText'>Xoziroq ro’yhattan o’ting, ma’lumotlaringizni <br />    to’ldiring va o’z karyerangizni boshlang!</p>
         <div className="btnnew2">
           <Button button="Ro‘yhatdan o’tish" />
-        <p className="takliflar_tekst001">Ko’p beriladigan savollar</p>
         <div className="qoshimcha">
-          <SimpleAccordion />
         </div>
 
-        <div className="footerReg">
-          <p className="footerRegText">
-            Xoziroq ro’yhattan o’ting, ma’lumotlaringizni <br /> to’ldiring va
-            o’z karyerangizni boshlang!
-          </p>
-          <div className="btnnew2">
-            <Link to="/authorization">
-              <Button button="Ro‘yhatdan o’tish" />
-            </Link>
-          </div>
-        </div>
+        
       </div>
       <Futter />
     </div>
