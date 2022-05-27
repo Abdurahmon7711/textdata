@@ -38,10 +38,10 @@ export default function InputAdornments(props) {
   };
 
   return (
-    <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
-      <div>
-        <FormControl sx={{ m: 1, width: '25ch' }} variant="standard">
-          <InputLabel htmlFor="standard-adornment-password">   Parolni kiriting</InputLabel>
+    <Box className="BoxPassword" sx={{ display: 'flex', flexWrap: 'wrap' }}>
+
+        <FormControl className="FormPassword" sx={{ m: 1, width: '25ch' }} variant="standard">
+          <InputLabel className="FormPassword" htmlFor="standard-adornment-password">   Parolni kiriting</InputLabel>
           <Input
             id="standard-adornment-password"
             type={values.showPassword ? 'text' : 'password'}
@@ -49,7 +49,7 @@ export default function InputAdornments(props) {
             onChange={handleChange('password')}
             endAdornment={
               <InputAdornment position="end">
-                <IconButton
+                <IconButton className='svgPassword'
                   aria-label="toggle password visibility"
                   onClick={handleClickShowPassword}
                   onMouseDown={handleMouseDownPassword}
@@ -60,7 +60,6 @@ export default function InputAdornments(props) {
             }
           />
         </FormControl>
-      </div>
     </Box>
   );
 }
