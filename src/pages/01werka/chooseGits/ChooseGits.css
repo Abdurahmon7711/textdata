@@ -59,6 +59,19 @@
     .bottom div .btn1{
         width: 100%;
     }
+    .gichgich{
+        margin: 20px !important;
+    }
+    .AboutGit .ortada{
+        width: 100%;
+        padding: 0 4%;
+    }
+    .AboutGit .right .top{
+        display: none;
+    }
+    .AboutGit .right .bottom{
+        margin-top: 0px !important;
+    }
   
    
 }

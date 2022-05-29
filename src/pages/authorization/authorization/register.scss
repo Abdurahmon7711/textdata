@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
 }
-.media1{
+.media1 {
   z-index: 3;
 }
-.option1{
+.option1 {
   width: 100% !important;
- 
+
   border: none !important;
   outline: none !important;
 }
@@ -20,18 +20,18 @@
   background: #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
   margin: 120px auto 200px;
-  .checkBlock{
+  .checkBlock {
     display: flex;
     width: 406px;
     justify-content: space-between;
     margin: 20px auto;
-    .savePassword{
+    .savePassword {
       display: flex;
-      .checkbox{
+      .checkbox {
         margin-top: 7%;
         margin-left: 0;
       }
-      p{
+      p {
         margin-left: 2px;
         font-size: 16px;
       }
@@ -49,7 +49,7 @@
       margin-top: 1%;
     }
   }
-  .css-19mk8g1-MuiInputBase-root-MuiFilledInput-root{
+  .css-19mk8g1-MuiInputBase-root-MuiFilledInput-root {
     width: 100%;
   }
 
@@ -59,7 +59,7 @@
     align-items: center;
     width: 406px;
     margin: 0 auto;
-    .css-xn6ruc>:not(style){
+    .css-xn6ruc > :not(style) {
       margin: 0px;
       width: 100%;
     }
@@ -107,8 +107,8 @@
     border: 2px solid #fafcfa;
     outline: none;
     color: #4b764b !important;
-  }  
-  .EnterEmail{
+  }
+  .EnterEmail {
     width: 406px;
     margin: 0 auto !important;
     .MuiFilledInput-root {
@@ -118,7 +118,7 @@
       border-radius: 4px;
       border: 2px solid #fafcfa;
     }
-    .css-xn6ruc>:not(style){
+    .css-xn6ruc > :not(style) {
       width: 100% !important;
       margin: 0 !important;
     }
@@ -131,125 +131,128 @@
   border-bottom: red !important;
 }
 
-.css-1aquho2-MuiTabs-indicator {
+.MuiTabs-indicator {
   background-color: #1d3d1d !important;
 }
 .css-1x51dt5-MuiInputBase-input-MuiInput-input {
   padding-left: 18px !important;
 }
-.css-1laqsz7-MuiInputAdornment-root{
-  button{
+.css-1laqsz7-MuiInputAdornment-root {
+  button {
     margin-left: auto;
   }
 }
-.registerBtn,.enterBtn {
+.registerBtn,
+.enterBtn {
   display: flex;
   justify-content: end;
 }
-.registerBtn{
-    margin-top: 20px;
+.registerBtn {
+  margin-top: 20px;
 }
-.enterBtn{
+.enterBtn {
   width: 96%;
 }
-.registerBtn{
+.registerBtn {
   width: 96%;
 }
 
 @media screen and (max-width: 576px) {
-  .registerBlock{
+  .registerBlock {
     width: auto;
     margin: 10% auto;
   }
-  .EnterEmail{
+  .EnterEmail {
     width: 100% !important;
   }
-  .checkBlock{
+  .checkBlock {
     width: auto !important;
   }
 
-  .MuiFilledInput-input{
+  .MuiFilledInput-input {
     width: 100% !important;
   }
-  .EnterPassword{
-    form{
+  .EnterPassword {
+    form {
       width: auto;
     }
     width: 100%;
-    .MuiBox-root{
+    .MuiBox-root {
       width: 100%;
-      .MuiFilledInput-root{
+      .MuiFilledInput-root {
         width: 100%;
       }
     }
   }
-  .remindPassword{
+  .remindPassword {
     width: auto !important;
   }
-  .MuiFilledInput-input MuiInputBase-input  {
+  .MuiFilledInput-input MuiInputBase-input {
     width: 100%;
   }
   .MuiFormControl-root {
     width: 100% !important;
   }
 
-  .mainBlock{
+  .mainBlock {
     width: auto !important;
     display: flex;
     flex-direction: column;
     margin: 0 auto !important;
-    .nameBlock{
+    .nameBlock {
       width: 100%;
       margin-left: 0;
-      .MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+      .MuiFormControl-root
+        MuiTextField-root
+        css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
         width: 100%;
         margin: 0;
       }
     }
-    .surNameBlock{
+    .surNameBlock {
       margin-top: 10px !important;
       width: 100%;
       margin: 0;
-      .MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
+      .MuiFormControl-root
+        MuiTextField-root
+        css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
         width: 100%;
         margin: 0;
       }
     }
   }
-  .MuiFilledInput-root{
+  .MuiFilledInput-root {
     width: 100% !important;
   }
-  .jobBlock{
+  .jobBlock {
     width: 100% !important;
   }
-  .enterBtn{
+  .enterBtn {
     width: 100%;
-    display: flex ;
-    justify-content: space-around ;
-    a{
+    display: flex;
+    justify-content: space-around;
+    a {
       width: 60%;
-      div{
+      div {
         width: 100%;
-        .btn1{
+        .btn1 {
           width: 100%;
         }
       }
     }
   }
-  .registerBtn{
+  .registerBtn {
     width: 100%;
-    display: flex ;
-    justify-content: space-around ;
-    a{
+    display: flex;
+    justify-content: space-around;
+    a {
       width: 60%;
-      div{
+      div {
         width: 100%;
-        .btn1{
+        .btn1 {
           width: 100%;
         }
       }
     }
   }
 }
-
-

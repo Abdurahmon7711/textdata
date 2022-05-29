@@ -57,6 +57,7 @@ export default function BasicTabs(label) {
           value={value}
           onChange={handleChange}
           aria-label="basic tabs example"
+         
         >
           <Tab className="tabs" label="Kirish" {...a11yProps(0)} />
           <Tab className="tabs" label="Ro’yhattan o’tish" {...a11yProps(1)} />
